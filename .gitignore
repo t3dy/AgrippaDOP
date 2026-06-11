@@ -1,0 +1,21 @@
+# Raw PDF and extracted text — copyright protected, never commit
+data/raw/*.pdf
+data/raw/*.PDF
+data/ocr/*.txt
+data/ocr/*.jsonl
+data/chunks/*.json
+data/indices/*.json
+db/*.sqlite
+logs/*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,777 @@
+[
+  {
+    "book": 1,
+    "chapter": 1,
+    "title_latin": "strabitur"
+  },
+  {
+    "book": 1,
+    "chapter": 5,
+    "title_latin": "(De mirabilibus ignis ac terrae naturis"
+  },
+  {
+    "book": 1,
+    "chapter": 6,
+    "title_latin": "De admirandis aquae et aeris atque ventorum naturis"
+  },
+  {
+    "book": 1,
+    "chapter": 9,
+    "title_latin": "De virtutibus rerum naturalium ab elementis proxime dependentibus"
+  },
+  {
+    "book": 1,
+    "chapter": 10,
+    "title_latin": "De virtutibus rerum occultis"
+  },
+  {
+    "book": 1,
+    "chapter": 11,
+    "title_latin": "Quomodo virtutes occultae infunduntur rerum speciebus ab ideis per rationes animae mundi stellarumque radios et quae res hac virtute magis abundant"
+  },
+  {
+    "book": 1,
+    "chapter": 12,
+    "title_latin": "Scimus itaque situm ac figuram coelestium causam esse omnis nobi­ lis virtutis, quae est in speciebus inferioribus. Quomodo diversis individuis, etiam eiusdem speciei, diversae virtutes influun­"
+  },
+  {
+    "book": 1,
+    "chapter": 14,
+    "title_latin": "De spiritu mundi quis sit et quod sit vinculum occultarum virtutum"
+  },
+  {
+    "book": 1,
+    "chapter": 15,
+    "title_latin": "similitudine"
+  },
+  {
+    "book": 1,
+    "chapter": 16,
+    "title_latin": "et sibi mutuo communicantur"
+  },
+  {
+    "book": 1,
+    "chapter": 19,
+    "title_latin": "quae oleo perlita sunt, cum quibus naturali antipathia dissidet.) Quomodo investigandae et experiundae sunt rerum virtutes, quae illis a tota specie insunt aut particulari ipsius individui dono alicui rei sunt agnatae"
+  },
+  {
+    "book": 1,
+    "chapter": 20,
+    "title_latin": "quibusdam vero in certis suis particulis aut membris"
+  },
+  {
+    "book": 1,
+    "chapter": 21,
+    "title_latin": "etiam post interitum"
+  },
+  {
+    "book": 1,
+    "chapter": 22,
+    "title_latin": "fieri posse consonantiam manifestum est.) Quomodo res inferiores subsunt corporibus coelestibus et quomodo humanum 20 corpus ipsaque hominum exercitia et mores stellis atque signis distribuuntur"
+  },
+  {
+    "book": 1,
+    "chapter": 24,
+    "title_latin": "Qua; res subsint Lunae"
+  },
+  {
+    "book": 1,
+    "chapter": 25,
+    "title_latin": "Quae subsunt Saturno"
+  },
+  {
+    "book": 1,
+    "chapter": 26,
+    "title_latin": "Quae sunt iovialia"
+  },
+  {
+    "book": 1,
+    "chapter": 29,
+    "title_latin": "Quae sequuntur Mercurium"
+  },
+  {
+    "book": 1,
+    "chapter": 30,
+    "title_latin": "Quod totus sublunaris mundus et quae in eo sunt planetis distribuitur"
+  },
+  {
+    "book": 1,
+    "chapter": 31,
+    "title_latin": "Qualiter provinciae et regna planetis distribuuntur"
+  },
+  {
+    "book": 1,
+    "chapter": 32,
+    "title_latin": "Quae subsunt signis ac stellis fixis earumque imaginibus"
+  },
+  {
+    "book": 1,
+    "chapter": 34,
+    "title_latin": "fluxus atque virtutes corporum coelestium"
+  },
+  {
+    "book": 1,
+    "chapter": 35,
+    "title_latin": "magis conferunt. Sic singulare munus a Sole trahes per radios Solis, 15 simul opportune susceptos, perque spiritum mundi. De commixtionibus rerum naturalium ad invicem earumque utilitate"
+  },
+  {
+    "book": 1,
+    "chapter": 36,
+    "title_latin": "sensibilis"
+  },
+  {
+    "book": 1,
+    "chapter": 37,
+    "title_latin": "stia quaedam et vitalia dona desuper trahimus"
+  },
+  {
+    "book": 1,
+    "chapter": 39,
+    "title_latin": "ministros daemones allicere possumus"
+  },
+  {
+    "book": 1,
+    "chapter": 40,
+    "title_latin": "De ligationibus cuiusmodi sint et quibus modis soleant fieri"
+  },
+  {
+    "book": 1,
+    "chapter": 41,
+    "title_latin": "De veneficiis eorundemque potentia"
+  },
+  {
+    "book": 1,
+    "chapter": 42,
+    "title_latin": "De quorundam veneficiorum admirandis virtutibus"
+  },
+  {
+    "book": 1,
+    "chapter": 43,
+    "title_latin": "De suffitibus et eorum ratione et potentia"
+  },
+  {
+    "book": 1,
+    "chapter": 44,
+    "title_latin": "Compositio quorundam suffituum planetis accomodatorum"
+  },
+  {
+    "book": 1,
+    "chapter": 45,
+    "title_latin": "De collyriis, unctionibus, philtris eorumque virtutibus"
+  },
+  {
+    "book": 1,
+    "chapter": 46,
+    "title_latin": "De alligationibus et suspensionibus physicis"
+  },
+  {
+    "book": 1,
+    "chapter": 47,
+    "title_latin": "De annulis et eorum compositionibus"
+  },
+  {
+    "book": 1,
+    "chapter": 48,
+    "title_latin": "facinoribus nullus videre poterat; tandem eo annuli beneficio rex Lydiae factus est.) De locorum virtutibus et quae loca cuique stellarum correspondeant"
+  },
+  {
+    "book": 1,
+    "chapter": 49,
+    "title_latin": "domibus et elementis distribuantur"
+  },
+  {
+    "book": 1,
+    "chapter": 50,
+    "title_latin": "De fascinatione atque eius artificio"
+  },
+  {
+    "book": 1,
+    "chapter": 51,
+    "title_latin": "De certis observationibus admirandas virtutes producentibus"
+  },
+  {
+    "book": 1,
+    "chapter": 52,
+    "title_latin": "divinationum artificia, sua fundamenta habeant"
+  },
+  {
+    "book": 1,
+    "chapter": 53,
+    "title_latin": "De divinatione auspiciorum et auguriorum"
+  },
+  {
+    "book": 1,
+    "chapter": 54,
+    "title_latin": "significationem habeant"
+  },
+  {
+    "book": 1,
+    "chapter": 55,
+    "title_latin": "aliquot regulis"
+  },
+  {
+    "book": 1,
+    "chapter": 56,
+    "title_latin": "pretanda sunt"
+  },
+  {
+    "book": 1,
+    "chapter": 57,
+    "title_latin": "divinationibus"
+  },
+  {
+    "book": 1,
+    "chapter": 59,
+    "title_latin": "De divinatione quae per somnia fit"
+  },
+  {
+    "book": 1,
+    "chapter": 60,
+    "title_latin": "De furore et divinationibus, quae in vigilia fiunt, de melancholici humoris potentia, quo etiam daemones nonnunquam in humana corpora illiciuntur"
+  },
+  {
+    "book": 1,
+    "chapter": 61,
+    "title_latin": "mae appetitu ac passionibus voluntatis"
+  },
+  {
+    "book": 1,
+    "chapter": 62,
+    "title_latin": "De passionibus animi et earum origine, differentia et speciebus"
+  },
+  {
+    "book": 1,
+    "chapter": 63,
+    "title_latin": "movendo spiritum"
+  },
+  {
+    "book": 1,
+    "chapter": 64,
+    "title_latin": "imaginativa non solum in corpus sed etiam in animam obtineat"
+  },
+  {
+    "book": 1,
+    "chapter": 65,
+    "title_latin": "bat. Verum de his abstractionibus latius in posterioribus dis­ seremus. ) Quomodo passiones animi etiam operantur extra se in corpus alienum"
+  },
+  {
+    "book": 1,
+    "chapter": 66,
+    "title_latin": "necessaria sit in omni opere ipsa animi constantia"
+  },
+  {
+    "book": 1,
+    "chapter": 67,
+    "title_latin": "Quomodo animus humanus potest coniungi cum colestium animis et intelligen- tiis atque simul cum illis mirabiles quasdam virtutes rebus inferioribus impri­"
+  },
+  {
+    "book": 1,
+    "chapter": 68,
+    "title_latin": "desiderat"
+  },
+  {
+    "book": 1,
+    "chapter": 69,
+    "title_latin": "De sermone atque virtutibus verborum"
+  },
+  {
+    "book": 1,
+    "chapter": 70,
+    "title_latin": "De virtute propriorum nominum"
+  },
+  {
+    "book": 1,
+    "chapter": 71,
+    "title_latin": "astrictionibus"
+  },
+  {
+    "book": 1,
+    "chapter": 72,
+    "title_latin": "De incantamentorum mirabili potentia"
+  },
+  {
+    "book": 1,
+    "chapter": 73,
+    "title_latin": "De virtute scripturae et de imprecationibus et inscriptionibus faciendis"
+  },
+  {
+    "book": 1,
+    "chapter": 74,
+    "title_latin": "planetas secundum varias linguas cum tabella hoc indicante"
+  },
+  {
+    "book": 2,
+    "chapter": 1,
+    "title_latin": "bus, quae solis mathematicis artibus perpetrantur"
+  },
+  {
+    "book": 2,
+    "chapter": 4,
+    "title_latin": "De unitate et eius scala"
+  },
+  {
+    "book": 2,
+    "chapter": 5,
+    "title_latin": "De dualitate et eius scala"
+  },
+  {
+    "book": 2,
+    "chapter": 6,
+    "title_latin": "De triade et eius scala"
+  },
+  {
+    "book": 2,
+    "chapter": 10,
+    "title_latin": "De septenario et eius scala"
+  },
+  {
+    "book": 2,
+    "chapter": 14,
+    "title_latin": "De undenario et duodenario, cum duplici duodenarii scala, cabalistica et orphica"
+  },
+  {
+    "book": 2,
+    "chapter": 15,
+    "title_latin": "De numeris qui supra duodenarium sunt eorumque potentia et virtutibus"
+  },
+  {
+    "book": 2,
+    "chapter": 16,
+    "title_latin": "De numerorum notis in certis gesticulationibus constitutis"
+  },
+  {
+    "book": 2,
+    "chapter": 19,
+    "title_latin": "De notis Hebraeorum et Chaldaeorum et quibusdam aliis magorum notis"
+  },
+  {
+    "book": 2,
+    "chapter": 20,
+    "title_latin": "Qui numeri literis attribuantur atque de divinatione per eosdem"
+  },
+  {
+    "book": 2,
+    "chapter": 24,
+    "title_latin": "De musicali harmonia eiusque viribus ac potentia"
+  },
+  {
+    "book": 2,
+    "chapter": 25,
+    "title_latin": "De sono atque concentu et unde illis mirabilitas in operando"
+  },
+  {
+    "book": 2,
+    "chapter": 26,
+    "title_latin": "stellis respondent"
+  },
+  {
+    "book": 2,
+    "chapter": 27,
+    "title_latin": "(De humani corporis proportione et mensura harmoniaque"
+  },
+  {
+    "book": 2,
+    "chapter": 29,
+    "title_latin": "De observatione coelestium in omni opere magico necessaria"
+  },
+  {
+    "book": 2,
+    "chapter": 30,
+    "title_latin": "Quando planetae sunt potentioris influentiae"
+  },
+  {
+    "book": 2,
+    "chapter": 31,
+    "title_latin": "De observatione stellarum fixarum earumque naturis"
+  },
+  {
+    "book": 2,
+    "chapter": 34,
+    "title_latin": "planetariarum"
+  },
+  {
+    "book": 2,
+    "chapter": 35,
+    "title_latin": "aliquam sortiantur a corporibus coelestibus"
+  },
+  {
+    "book": 2,
+    "chapter": 36,
+    "title_latin": "terreni obediunt Scorpioni coelesti, sed etiam imagini Scorpionis illius, quae fuerit opportune sub eius ascensu ac dominio figurata. De imaginibus Zodiaci quas insculptae a suis stellis concipiant virtutes"
+  },
+  {
+    "book": 2,
+    "chapter": 37,
+    "title_latin": "sunt imaginibus"
+  },
+  {
+    "book": 2,
+    "chapter": 39,
+    "title_latin": "De imaginibus Iovis"
+  },
+  {
+    "book": 2,
+    "chapter": 40,
+    "title_latin": "De imaginibus Martis"
+  },
+  {
+    "book": 2,
+    "chapter": 41,
+    "title_latin": "De imaginibus Solis"
+  },
+  {
+    "book": 2,
+    "chapter": 42,
+    "title_latin": "De imaginibus Veneris"
+  },
+  {
+    "book": 2,
+    "chapter": 43,
+    "title_latin": "De imaginibus Mercurii"
+  },
+  {
+    "book": 2,
+    "chapter": 44,
+    "title_latin": "De imaginibus Lunae"
+  },
+  {
+    "book": 2,
+    "chapter": 45,
+    "title_latin": "De imaginibus Capitis et Caudae Draconis Lunae"
+  },
+  {
+    "book": 2,
+    "chapter": 46,
+    "title_latin": "De imaginibus mansionum Lunae"
+  },
+  {
+    "book": 2,
+    "chapter": 47,
+    "title_latin": "De imaginibus stellarum fixarum Beheniarum"
+  },
+  {
+    "book": 2,
+    "chapter": 48,
+    "title_latin": "earundem tabula"
+  },
+  {
+    "book": 2,
+    "chapter": 49,
+    "title_latin": "coelestis, sed ad similitudinem illius quod desiderat animus operantis"
+  },
+  {
+    "book": 2,
+    "chapter": 50,
+    "title_latin": "tiones vero ad huiusmodi imagines et consimiles observandas docet nos ea pars astrologiae, quae de electionibus inscripta est. De observationibus quibusdam coelestibus et practica quarundam eiusdem"
+  },
+  {
+    "book": 2,
+    "chapter": 51,
+    "title_latin": "quomodo ex geomanticis figuris deducuntur cum eorundem tabula"
+  },
+  {
+    "book": 2,
+    "chapter": 52,
+    "title_latin": "De characteribus qui a rebus ipsis similitudine quadam abstrahuntur"
+  },
+  {
+    "book": 2,
+    "chapter": 53,
+    "title_latin": "Quod nulla divinatio sina astrologia sit perfecta"
+  },
+  {
+    "book": 2,
+    "chapter": 54,
+    "title_latin": "De sorte et quando ac unde illi divinationis virtus contingat"
+  },
+  {
+    "book": 2,
+    "chapter": 55,
+    "title_latin": "De anima mundi et coelestium iuxta traditiones poetarum et philosophorum"
+  },
+  {
+    "book": 2,
+    "chapter": 56,
+    "title_latin": "Idem confirmatur ratione"
+  },
+  {
+    "book": 2,
+    "chapter": 57,
+    "title_latin": "Quod anima mundi ac coelestes animae sint rationales ac mentem participantes"
+  },
+  {
+    "book": 2,
+    "chapter": 58,
+    "title_latin": "mundum, videlicet hominem"
+  },
+  {
+    "book": 2,
+    "chapter": 59,
+    "title_latin": "cis sermonibus deservientibus"
+  },
+  {
+    "book": 2,
+    "chapter": 60,
+    "title_latin": "< Quod, humanae imprecationes naturaliter imprimunt suas vires in res exteri­ ores et quomodo animus humanus per singulos dependentiarum gradus ascendit in mundum intelligibilem fitque similis spiritibus et intelligentiis sublimiori­"
+  },
+  {
+    "book": 3,
+    "chapter": 1,
+    "title_latin": "De necessitate, virtute et utilitate religionis"
+  },
+  {
+    "book": 3,
+    "chapter": 4,
+    "title_latin": "De duobus ceremonialis magiae adminiculis, religione et superstitione"
+  },
+  {
+    "book": 3,
+    "chapter": 5,
+    "title_latin": "De tribus ducibus religionis qui nos ad veritatis semitam perducunt"
+  },
+  {
+    "book": 3,
+    "chapter": 6,
+    "title_latin": "miraculorum effectrix"
+  },
+  {
+    "book": 3,
+    "chapter": 8,
+    "title_latin": "Quid de divina Trinitate veteres senserint philosophi"
+  },
+  {
+    "book": 3,
+    "chapter": 9,
+    "title_latin": "Quae sit vera de Deo et sanctissima Trinitate orthodoxa fides"
+  },
+  {
+    "book": 3,
+    "chapter": 10,
+    "title_latin": "nominibus illis praesidentibus eorundemque interpretatione"
+  },
+  {
+    "book": 3,
+    "chapter": 11,
+    "title_latin": "De divinis nominibus eorundemque potentia et virtute"
+  },
+  {
+    "book": 3,
+    "chapter": 12,
+    "title_latin": "De influxu divinorum nominum per singula media in haec inferiora"
+  },
+  {
+    "book": 3,
+    "chapter": 14,
+    "title_latin": "olim sacra fuerunt"
+  },
+  {
+    "book": 3,
+    "chapter": 15,
+    "title_latin": "(Quit/ de animabus coelestibus nostri sentiunt theologi"
+  },
+  {
+    "book": 3,
+    "chapter": 16,
+    "title_latin": "variis deque infernis et subterraneis daemonibus"
+  },
+  {
+    "book": 3,
+    "chapter": 18,
+    "title_latin": "id est ‘heroes, viri fortes et beati’, per quos Deus Adonai ’’ίΊΝ prophetiam largitur.} (De ordinibus malorum daemonum eorundemque casu et naturis variis"
+  },
+  {
+    "book": 3,
+    "chapter": 19,
+    "title_latin": "(De corporibus daemonum"
+  },
+  {
+    "book": 3,
+    "chapter": 20,
+    "title_latin": "concubitum; et quosdam daemones, quos Galli Dusios nuncupant, 20 hanc assidue tentare libidinem.) De infestatione malorum demonum et custodia nobis adhibita bonorum"
+  },
+  {
+    "book": 3,
+    "chapter": 21,
+    "title_latin": "De obsequendo proprio genio eiusque natura indaganda"
+  },
+  {
+    "book": 3,
+    "chapter": 23,
+    "title_latin": "De lingua Angelorum eorumque cum inter se, tum nobiscum collocutionibus"
+  },
+  {
+    "book": 3,
+    "chapter": 24,
+    "title_latin": "praesunt stellis, signis, cardinibus coeli et elementis"
+  },
+  {
+    "book": 3,
+    "chapter": 25,
+    "title_latin": "Ziruph et commutationum literarum et numerorum"
+  },
+  {
+    "book": 3,
+    "chapter": 26,
+    "title_latin": "coelestium"
+  },
+  {
+    "book": 3,
+    "chapter": 29,
+    "title_latin": "(De characteribus et sigillis spirituum"
+  },
+  {
+    "book": 3,
+    "chapter": 30,
+    "title_latin": "(Alius characierizandi modus a cabalistis traditus"
+  },
+  {
+    "book": 3,
+    "chapter": 31,
+    "title_latin": "revelatione recepta sunt"
+  },
+  {
+    "book": 3,
+    "chapter": 34,
+    "title_latin": "De ordine animastico atque heroibus"
+  },
+  {
+    "book": 3,
+    "chapter": 36,
+    "title_latin": "De homine quomodo creatus ad imaginem Dei"
+  },
+  {
+    "book": 3,
+    "chapter": 37,
+    "title_latin": "De anima humana et per quae media iungatur corpori"
+  },
+  {
+    "book": 3,
+    "chapter": 39,
+    "title_latin": "depravantur et malorum causae efficiantur"
+  },
+  {
+    "book": 3,
+    "chapter": 40,
+    "title_latin": "pertingere ad operandum mirabilia"
+  },
+  {
+    "book": 3,
+    "chapter": 41,
+    "title_latin": "Quid de homine post mortem opiniones variae"
+  },
+  {
+    "book": 3,
+    "chapter": 42,
+    "title_latin": "Quibus rationibus magi et necromantes mortuorum animas evocare se posse"
+  },
+  {
+    "book": 3,
+    "chapter": 43,
+    "title_latin": "De humanae animae potestate in mente, ratione et idolo"
+  },
+  {
+    "book": 3,
+    "chapter": 44,
+    "title_latin": "De gradibus animarum et earundem interitu aut immortalitate"
+  },
+  {
+    "book": 3,
+    "chapter": 45,
+    "title_latin": "De vaticinio et furore"
+  },
+  {
+    "book": 3,
+    "chapter": 46,
+    "title_latin": "De prima specie furoris a Musis"
+  },
+  {
+    "book": 3,
+    "chapter": 47,
+    "title_latin": "De secunda specie a Dionysio"
+  },
+  {
+    "book": 3,
+    "chapter": 48,
+    "title_latin": "De tertia specie furoris ab Apolline"
+  },
+  {
+    "book": 3,
+    "chapter": 49,
+    "title_latin": "De quarta specie furoris a Venere"
+  },
+  {
+    "book": 3,
+    "chapter": 50,
+    "title_latin": "tur et quae agonizantibus contingunt"
+  },
+  {
+    "book": 3,
+    "chapter": 51,
+    "title_latin": "De somnio prophetico"
+  },
+  {
+    "book": 3,
+    "chapter": 53,
+    "title_latin": "Quomodo se disponere debeat volens suscipere oracula"
+  },
+  {
+    "book": 3,
+    "chapter": 54,
+    "title_latin": "De munditia et quomodo observanda"
+  },
+  {
+    "book": 3,
+    "chapter": 55,
+    "title_latin": "imprimis observandum est ut habeatur animus mundus et cor pu- 20 rum, ad quae tunc immundae potestates nequeunt ascendere.} De abstinentia et teiuniis et castitate, solitudine et animi tranquillitate atque"
+  },
+  {
+    "book": 3,
+    "chapter": 56,
+    "title_latin": "De poenitentia et eleemosyna"
+  },
+  {
+    "book": 3,
+    "chapter": 57,
+    "title_latin": "De hiis quae extrinsecus administratis ad expiationem conducunt"
+  },
+  {
+    "book": 3,
+    "chapter": 58,
+    "title_latin": "De adorationibus et votis"
+  },
+  {
+    "book": 3,
+    "chapter": 59,
+    "title_latin": "De sacrificiis et oblationibus eorumque generibus et modis"
+  },
+  {
+    "book": 3,
+    "chapter": 60,
+    "title_latin": "Quas imprecationes et ritus veteres adhiberi solebant sacrificiis et oblationibus"
+  },
+  {
+    "book": 3,
+    "chapter": 61,
+    "title_latin": "< Quomodo haec tum ad Deum, tum ad inferiora numina exhibenda sunt"
+  },
+  {
+    "book": 3,
+    "chapter": 62,
+    "title_latin": "(De consecrationibus et.earum ratione"
+  },
+  {
+    "book": 3,
+    "chapter": 63,
+    "title_latin": "divos ac de sacris temporibus"
+  },
+  {
+    "book": 3,
+    "chapter": 64,
+    "title_latin": "unctionum et similium"
+  },
+  {
+    "book": 3,
+    "chapter": 65,
+    "title_latin": "Operis totius conclusio"
+  }
+]
