@@ -221,6 +221,556 @@ EPIST_LABELS: dict[str, str] = {
 
 
 # ─────────────────────────────────────────────────────────────────────────────
+# Scholarly notes
+# Sources:
+#   LEHRICH  = Christopher I. Lehrich, The Language of Demons and Angels:
+#              Cornelius Agrippa's Occult Philosophy (Brill, 2003)
+#   VDP      = Marc van der Poel, Cornelius Agrippa the Humanist Theologian
+#              and His Declamations (Brill, 1997)
+#   MILES    = Chris Miles, "Occult Retraction: Cornelius Agrippa and the
+#              Paradox of Magical Language," Rhetoric Society Quarterly 38 (2008)
+#   NEWMAN   = Barbara Newman, "Renaissance Feminism and Esoteric Theology:
+#              The Case of Cornelius Agrippa," Viator 24 (1993)
+#   DANIELS  = George H. Daniels Jr., "Knowledge and Faith in the Thought of
+#              Cornelius Agrippa," BHR 26 (1964)
+#   BOWEN    = Barbara C. Bowen, "Cornelius Agrippa's De vanitate: Polemic or
+#              Paradox?" BHR 34 (1972)
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Per-chapter notes (book, chapter). key (0,0) = whole-work note.
+# Theme-cluster notes used as fallback by scholar_section().
+SCHOLARLY_NOTES: dict[tuple[int, int], str] = {
+
+    # ── Epistles ─────────────────────────────────────────────────────────────
+    (0, -1): (
+        "The prefatory letters situate <em>De occulta philosophia</em> in the social world "
+        "of learned humanism. Van der Poel (1997) stresses that Agrippa's letter to Trithemius "
+        "is not merely a dedication but an apologia establishing the work's legitimacy: the "
+        "addressee, a renowned abbot and scholar of cryptography, confers scholarly authority "
+        "on occult learning. Newman (1993) notes that both <em>De occulta philosophia</em> and "
+        "<em>De nobilitate</em> were 'begun in the author's early twenties but later revised and "
+        "expanded' before publication in the mid-1530s — the Trithemius letter thus bridges "
+        "Agrippa's juvenile draft and his mature system."
+    ),
+
+    # ── Book I key chapters ───────────────────────────────────────────────────
+
+    (1, 1): (
+        "The opening chapter establishes the tripartite structure of the entire work. "
+        "Lehrich (2003) calls the three-world cosmology — elemental, celestial, intellectual — "
+        "Agrippa's fundamental ontological scaffolding: natural magic operates at the elemental "
+        "level, celestial magic at the astronomical, and ceremonial magic at the divine. "
+        "Daniels (1964) traces this structure to the Neoplatonic tradition mediated through "
+        "Ficino, arguing that Agrippa's originality lies not in the cosmological scheme itself "
+        "but in systematically linking it to a practical programme of magical operations."
+    ),
+    (1, 2): (
+        "Lehrich (2003) regards Agrippa's definition of magic as philosophically sophisticated "
+        "rather than naively enthusiastic: magic is the discipline that reads the hidden "
+        "signatures written into nature by God, and the magician's task is to decipher and "
+        "employ those correspondences. Van der Poel (1997) situates this definition within "
+        "Agrippa's broader Neoplatonic theology: 'Agrippa's enthusiasm for the secrets of "
+        "nature is justified by his Neoplatonic conviction that God manifests Himself in various "
+        "ways in the created world.' The three-part division of magic (natural, celestial, "
+        "ceremonial) into which this chapter initiates the reader structures the three books "
+        "of the entire work."
+    ),
+    (1, 3): (
+        "The classification of the three kinds of magic is the conceptual hinge of the whole "
+        "work. Daniels (1964) argues that Agrippa's epistemological foundation here is "
+        "empiricist: the 'occult virtues' that natural magic exploits 'lie beyond the reach of "
+        "human intellect, and philosophers attain to knowledge of them with the help of "
+        "experience alone.' Lehrich (2003) reads the ascending structure — natural, celestial, "
+        "divine — as a ladder of increasing abstraction: natural magic reads the book of nature; "
+        "celestial magic reads the mathematical structures that organise the cosmos; ceremonial "
+        "magic reads, and attempts to speak, the language of God."
+    ),
+
+    (1, 10): (
+        "Lehrich (2003) identifies the theory of occult virtues as the philosophical foundation "
+        "of the entire natural-magic programme: these are qualities that things possess not "
+        "by their observable material properties but by their participation in celestial and "
+        "divine orders. Daniels (1964) notes Agrippa's key epistemological claim here: "
+        "occult virtues are 'called occult, simply because their causes lie beyond the reach "
+        "of human intellect,' meaning that the natural magician proceeds by empirical correlation "
+        "rather than causal demonstration — a position that, for Daniels, explains how Agrippa "
+        "could endorse such a diverse range of reported magical phenomena."
+    ),
+    (1, 11): (
+        "This chapter on how ideas infuse virtues through the world-soul connects the "
+        "natural-magical programme directly to Ficinian and Neoplatonic cosmology. "
+        "Lehrich (2003) stresses that the 'world-soul' (anima mundi) functions in DOP as "
+        "the ontological medium through which the divine irradiates the material world: "
+        "natural things are not self-sufficient but are nodes in a network of downward "
+        "emanation and upward participation. Van der Poel (1997) contextualises this within "
+        "Agrippa's Neoplatonic-theological project of showing that God is immanent in creation."
+    ),
+    (1, 14): (
+        "The 'spirit of the world' (spiritus mundi) is one of the key operative concepts of "
+        "natural magic. Lehrich (2003) analyses it as the vehicle by which celestial powers "
+        "descend into material things and by which the magician's operations can redirect those "
+        "powers: the spirit is at once cosmological medium and quasi-material substrate of "
+        "magical action. This chapter's role in binding the theory of occult virtues to a "
+        "practical programme of manipulation makes it central to DOP's argument."
+    ),
+
+    (1, 59): (
+        "Chapters on names, words, and characters (approximately I:59–I:62) form the "
+        "language-theory core of Book I. Miles (2008) argues that Agrippa's philosophy of "
+        "language is far more nuanced than the standard 'magical identification of signifier "
+        "and signified' allows. Words derive their power not from any inherent property but "
+        "from 'the occult Divine powers working by them in the minds of those who by faith "
+        "adhere to them' — a position Miles traces back to this cluster of chapters and which "
+        "reaches its clearest statement in III:11. Lehrich (2003) reads these chapters as "
+        "part of the ascending movement from natural signs to divine names."
+    ),
+    (1, 60): (
+        "Miles (2008) gives close attention to Agrippa's theory that words are 'the fittest "
+        "medium betwixt the speaker and the hearer, carrying with them not only the conception "
+        "of the mind, but also the vertue of the speaker.' The key move is that magical force "
+        "is located not in the word itself but in the speaker's virtue — a point that Miles "
+        "connects to the explicit theoretical statement of III:11. Lehrich (2003) places this "
+        "within the broader project of making the magician's operations continuous with the "
+        "divine Word through which God created the world."
+    ),
+    (1, 61): (
+        "The chapter on magical books and writing extends the language-theory of I:60 into "
+        "the domain of inscribed signs. Miles (2008) notes that the apparent endorsement of "
+        "inherently powerful written characters sits in tension with deeper passages in Book III "
+        "that deny intrinsic power to all linguistic signs. Lehrich (2003) interprets the "
+        "written magical book as a kind of material analogue of Scripture: just as the Bible "
+        "embodies the Word of God in text, the magical book attempts to embody divine virtues "
+        "in specially prepared physical form."
+    ),
+    (1, 62): (
+        "Magical characters and seals are the visual counterpart of magical words. "
+        "Lehrich (2003) analyses the connection between the sigil-construction methods "
+        "described here and the more systematic treatment in Book II's planetary tables: "
+        "in both cases, written signs derive their power from mathematical-celestial "
+        "correspondences, not from arbitrary convention. Miles (2008) situates these "
+        "chapters in his argument that Agrippa ultimately holds a conventionalist theory "
+        "of signs despite surface appearances of a 'natural language' model."
+    ),
+
+    (1, 67): (
+        "The numerological chapters at the end of Book I (I:67–I:70) foreshadow the "
+        "systematic treatment of Book II. Daniels (1964) notes that Agrippa's Pythagorean "
+        "commitment to number as an ontological principle is not a quirk of Renaissance "
+        "credulity but follows logically from his empiricist epistemology: if only experience "
+        "can reveal occult causes, then the regularities of number — which are both empirically "
+        "observable and cosmologically fundamental — become the most reliable guide to hidden "
+        "correspondences. Lehrich (2003) traces the tradition to Iamblichus's <em>Theology of "
+        "Arithmetic</em> and Pico della Mirandola's <em>Conclusiones</em>."
+    ),
+    (1, 74): (
+        "The 'conclusion of natural magic' is more than a summary: it signals the transition "
+        "to the higher level of celestial magic in Book II. Lehrich (2003) reads this "
+        "transitional chapter as marking the structural logic of the ascending movement: "
+        "natural magic is not abandoned but transcended, its operations continuing to operate "
+        "within the framework established by Book I while being elevated and recontextualised "
+        "by the celestial and divine levels above it. The chapter thus functions as an "
+        "argumentative hinge between the three books."
+    ),
+
+    # ── Book II key chapters ──────────────────────────────────────────────────
+
+    (2, 1): (
+        "Book II opens with an argument for the necessity of mathematical learning that "
+        "Lehrich (2003) describes as one of the philosophically richest programmatic statements "
+        "in DOP. The Pythagorean-Neoplatonic conviction that number is the structural principle "
+        "of reality — mediated through Iamblichus, Boethius, and Pico — makes mathematics not "
+        "an auxiliary tool but the very language in which the cosmos is written. "
+        "Daniels (1964) situates this mathematically-grounded empiricism within his broader "
+        "argument: if all knowledge of occult causes comes through experience, then the "
+        "numerical regularities that recur across all domains of nature are the most reliable "
+        "empirical evidence available."
+    ),
+    (2, 2): (
+        "The metaphysical status of number in DOP draws on the Pythagorean tradition as "
+        "filtered through late antique Neoplatonism. Lehrich (2003) traces Agrippa's "
+        "sources to Iamblichus's <em>Theology of Arithmetic</em> and Nicomachus's "
+        "<em>Introduction to Arithmetic</em>, both of which treat numbers not as abstract "
+        "quantities but as ontological principles — 'the key to all secrets of nature' "
+        "as Agrippa formulates it. This gives Book II's numerological chapters a philosophical "
+        "seriousness that purely practical magic manuals lack."
+    ),
+
+    (2, 35): (
+        "The planetary tables (magic squares) are the practical and theoretical centrepiece "
+        "of Book II. Lehrich (2003) devotes sustained analysis to these chapters, arguing "
+        "that the construction of sigils from magic squares — deriving written characters "
+        "from the path of a spirit's name through a numbered grid — demonstrates Agrippa's "
+        "most sophisticated attempt to make mathematical structure generate magical writing. "
+        "The squares embody the celestial virtues of the planets in a form that can be "
+        "transferred to physical objects; they are, in Lehrich's reading, the book's "
+        "most complete illustration of how number mediates between the divine and the material."
+    ),
+    (2, 36): (
+        "The 'faces' or <em>decans</em> of the planets extend the talisman-making programme "
+        "of the magic squares. Lehrich (2003) situates these image-chapters within the "
+        "tradition of Arabic astrological magic (the <em>Picatrix</em> / <em>Ghāyat al-Ḥakīm</em>) "
+        "and Ficino's <em>De vita coelitus comparanda</em>, both of which Agrippa systematises "
+        "and integrates into his tripartite cosmological framework."
+    ),
+    (2, 37): (
+        "The chapter on magical virtue in letters and characters links Book II's mathematical "
+        "programme to the language-theory that Miles (2008) identifies as central to DOP's "
+        "philosophical argument. Miles shows that the elaborate character-systems of Book II "
+        "appear to endorse a 'natural language' model in which signs directly embody power — "
+        "yet the deeper theoretical statement of III:11 qualifies this, insisting that power "
+        "resides not in the sign itself but in the faith and virtue of the operator."
+    ),
+
+    (2, 59): (
+        "The chapter on human proportions and harmony brings together the Vitruvian "
+        "tradition of the <em>homo quadratus</em> with Pythagorean-Neoplatonic number theory. "
+        "Lehrich (2003) reads this as Agrippa's most explicit statement of the "
+        "macrocosm-microcosm principle: the human body, structured according to the same "
+        "mathematical ratios that organise the cosmos, is the living bridge between the "
+        "elemental world below and the celestial world above. The magician's self-knowledge "
+        "is therefore simultaneously cosmological knowledge."
+    ),
+
+    # ── Book III key chapters ─────────────────────────────────────────────────
+
+    (3, 1): (
+        "Book III opens with the three theological virtues — hope, faith, and love — as "
+        "the foundations of ceremonial magic. Lehrich (2003) argues that this opening is "
+        "deliberately continuous with Christian theology: the magician's ascent to the "
+        "divine is not a pagan rival to Christianity but an intensification of it, using "
+        "the same virtues that Christian theology identifies as the conditions of union "
+        "with God. Van der Poel (1997) contextualises this within Agrippa's broader "
+        "project of reconciling occult learning with reform-minded Catholic humanism."
+    ),
+    (3, 4): (
+        "The chapter on finding the angels and their orders represents the taxonomic heart "
+        "of Book III's angelology. Lehrich (2003) analyses DOP's angel-hierarchy in relation "
+        "to Pseudo-Dionysian celestial hierarchy, arguing that Agrippa's innovation is to "
+        "treat the angelic orders not merely as theological categories but as operative "
+        "principles accessible to the trained magician. The angels are, in effect, the "
+        "personified intelligences that govern the celestial powers described in Book II; "
+        "contact with them is the culmination of the ascending magical programme."
+    ),
+    (3, 5): (
+        "The orders of evil spirits mirror the hierarchy of angels, forming the shadow-side "
+        "of the celestial taxonomy. Lehrich (2003) situates Agrippa's demonology within "
+        "the tradition of late antique and medieval angelology, noting that the careful "
+        "classification of demonic orders serves a practical purpose: the magician who "
+        "understands the hierarchy can navigate it safely, distinguishing licit operations "
+        "(working with angels) from illicit ones (summoning demons without proper authority). "
+        "Miles (2008) connects the demonological chapters to his argument about the "
+        "retraction: the very comprehensiveness of the demonic taxonomy exposes the "
+        "dangerous knowledge that Agrippa's later apologia attempts to disown."
+    ),
+
+    (3, 7): (
+        "The chapter on the ten divine names and their correspondence to the Kabbalistic "
+        "Sephiroth is one of the most celebrated passages in DOP. Lehrich (2003) regards "
+        "the Kabbalistic material of Book III as Agrippa's most serious engagement with "
+        "the question of how human language can approach divine reality: the divine names "
+        "are the points at which the infinite descends into the finite, and the magician "
+        "who knows them participates in the divine creative act. Miles (2008) reads this "
+        "chapter in relation to III:11's qualification: the names have power only through "
+        "the faith of those who use them, not through any intrinsic property."
+    ),
+    (3, 8): (
+        "Agrippa's treatment of divine names draws on the Kabbalistic tradition as filtered "
+        "through Giovanni Pico della Mirandola and Johannes Reuchlin. Lehrich (2003) notes "
+        "that the mature DOP departs from Reuchlin's position that Hebrew is inherently "
+        "superior to other languages: by 1533, Agrippa had come to hold that no human "
+        "language — including Hebrew — can fully contain divine reality. The divine names "
+        "work, but through faith, not through linguistic essence. This represents a "
+        "significant development from the 1510 Würzburg draft."
+    ),
+    (3, 11): (
+        "Miles (2008) identifies this chapter as the key to DOP's philosophy of language. "
+        "The statement that sacred words 'have not their power in Magicall operations, from "
+        "themselves, as they are words, but from the occult Divine powers working by them "
+        "in the minds of those who by faith adhere to them' is, for Miles, 'a remarkably "
+        "modern gloss' anticipating speech-act theory: power is located not in the sign "
+        "itself but in the faith and purity of the operator. This passage is, in Miles's "
+        "reading, 'occulted away from the eyes of the careless reader, covered over with "
+        "just the sort of compendious listing' that dominates the surrounding chapters — "
+        "a deliberate concealment of DOP's most theoretically sophisticated claim."
+    ),
+    (3, 12): (
+        "The seventy-two names of God represent the Kabbalistic tradition of divine "
+        "nomenclature at its most elaborate. Lehrich (2003) analyses these names as the "
+        "intersecting nodes of the divine-name system that Books II and III together "
+        "construct: each name is a facet of the infinite divine reality, refracted through "
+        "the structures of human language. The chapter illustrates the tension between the "
+        "surface suggestion that these names inherently contain divine power and the deeper "
+        "qualification — stated explicitly in III:11 — that their power is conditional on "
+        "the faith of the practitioner."
+    ),
+
+    (3, 23): (
+        "Lehrich's monograph is named after the angelic-language theme that reaches its "
+        "fullest development in this chapter. For Lehrich (2003), the language of angels "
+        "is not a human language but a system of pure meaning — 'the undifferentiated "
+        "absolute Word of God (Christ/Logos) by means of which God created the world.' "
+        "The magician who achieves genuine contact with angels participates in this "
+        "pre-linguistic, divine communication that transcends the inadequacies of all "
+        "human language. Miles (2008) connects this to his argument about the limits of "
+        "language: the angelic chapter represents the point at which DOP most directly "
+        "acknowledges that no human linguistic system can reach ultimate truth."
+    ),
+
+    (3, 27): (
+        "The chapter on frenzy and madness as modes of divination draws on the Platonic "
+        "tradition of divine mania (Phaedrus, Symposium) as mediated through Ficino's "
+        "commentary on the Phaedrus. Lehrich (2003) analyses this cluster of soul-chapters "
+        "(approximately III:27–III:32) as describing the conditions under which the human "
+        "soul can transcend its ordinary cognitive limitations and receive divine knowledge "
+        "directly — not through rational discourse but through the suspension of reason. "
+        "Newman (1993) connects Agrippa's treatment of ecstatic states to his broader "
+        "Hermetic and Neoplatonic anthropology, in which the soul's highest faculty is "
+        "capable of direct union with the divine."
+    ),
+    (3, 28): (
+        "The ecstasy of magi and the magical significance of sleep and dreams connect "
+        "DOP's ceremonial programme to the ancient tradition of incubation and prophetic "
+        "dreaming. Lehrich (2003) reads these chapters as completing the ascending movement "
+        "of the three books: natural magic works through the body and material things; "
+        "celestial magic works through mathematical proportions and stellar correspondences; "
+        "ceremonial magic ultimately works through the suspension of ordinary consciousness "
+        "and the soul's direct encounter with divine intelligences."
+    ),
+
+    (3, 65): (
+        "The epilogue completes DOP with a famous passage of apparent self-retraction, "
+        "in which Agrippa distances himself from the very material he has compiled. "
+        "Miles (2008) reads this retraction as deliberately paradoxical: because the "
+        "retraction is included within the published text, it inevitably retracts itself, "
+        "instantiating 'a typical Epimenidian self-referential loop of infinite "
+        "flip-flopping.' The retraction is not a genuine disavowal but a rhetorical "
+        "performance of the limits of language that the entire work has been exploring. "
+        "Bowen (1972) compares the move to Erasmus's <em>Praise of Folly</em> and the "
+        "tradition of paradoxical encomium: Agrippa both affirms and undercuts his "
+        "own authority as a way of demonstrating that no single voice can contain truth."
+    ),
+}
+
+
+# Theme-cluster notes used when no chapter-specific note is available
+def _book1_theme(title_lower: str) -> str:
+    if any(k in title_lower for k in ("name", "word", "writing", "character", "seal")):
+        return (
+            "The language and sign chapters of Book I form the first part of Agrippa's "
+            "extended meditation on magical signification. Miles (2008) argues that these "
+            "chapters appear to endorse a 'natural language' model in which signs directly "
+            "embody power, but that this surface reading is complicated by deeper passages "
+            "in Book III that deny intrinsic power to all human linguistic signs. "
+            "Lehrich (2003) reads the sign-chapters as steps in the ascending movement "
+            "from material signatures to celestial characters to the divine Word."
+        )
+    if any(k in title_lower for k in ("number", "scale", "unity", "virtue of")):
+        return (
+            "Daniels (1964) identifies Agrippa's numerological reasoning as grounded "
+            "in a practical empiricism: number is privileged because numerical regularities "
+            "are the most reliably observable form of occult correspondence. Lehrich (2003) "
+            "traces the intellectual tradition to Iamblichus and Pico, for whom numbers "
+            "are ontological principles rather than merely abstract quantities — a "
+            "position that elevates the scales of correspondence from mnemonics to "
+            "cosmological architecture."
+        )
+    if any(k in title_lower for k in ("star", "planet", "image", "celestial", "moon", "sun",
+                                       "saturn", "jupiter", "mars", "venus", "mercury", "zodiac")):
+        return (
+            "The stellar and planetary image chapters represent the practical heart of "
+            "natural magic. Lehrich (2003) analyses the tradition of astrological "
+            "talismans as drawing on the Arabic <em>Picatrix</em> and Ficino's "
+            "<em>De vita coelitus comparanda</em>, both of which Agrippa incorporates "
+            "into his tripartite cosmological framework. The images are not illustrations "
+            "but operative instruments: by reproducing celestial forms in material "
+            "media at astrologically propitious moments, the magician draws down "
+            "specific planetary virtues."
+        )
+    if any(k in title_lower for k in ("divination", "lot", "soothsay", "omen", "portent",
+                                       "dream", "oracle")):
+        return (
+            "Agrippa's treatment of divination connects the practical programme of natural "
+            "magic to the theory of the soul's prophetic capacities developed more fully "
+            "in Book III. Daniels (1964) notes that Agrippa's empiricism applies here as "
+            "elsewhere: the evidence for divination's efficacy comes from accumulated "
+            "testimony, not theoretical demonstration. Lehrich (2003) situates the "
+            "divination chapters at the boundary between natural and celestial magic, "
+            "where material operations begin to shade into the soul's capacity to "
+            "receive information from higher sources."
+        )
+    # Default Book I note
+    return (
+        "Lehrich (2003) characterises Book I's project as the systematic 'reading and "
+        "writing' of the natural world — deciphering the hidden signatures inscribed in "
+        "things by God and employing them in magical operations. Daniels (1964) identifies "
+        "the epistemological foundation as empiricist: occult virtues are known through "
+        "experience and accumulated testimony, not rational demonstration. Van der Poel (1997) "
+        "situates the whole of Book I within Agrippa's Neoplatonic theology of divine "
+        "immanence, in which nature is not merely a collection of objects but a "
+        "continuous disclosure of divine presence."
+    )
+
+
+def _book2_theme(title_lower: str) -> str:
+    if any(k in title_lower for k in ("music", "harmony", "sound", "proportion", "consonan")):
+        return (
+            "The music and harmony chapters are among the most philosophically rich in "
+            "Book II. Schipperges (2003) argues that Agrippa follows the Boethian "
+            "tradition of <em>musica mundana</em> — cosmic music as the audible expression "
+            "of the mathematical ratios that structure reality — while incorporating "
+            "Pythagorean numerology. Lehrich (2003) connects these chapters to the "
+            "broader argument that the cosmos is structured by proportion: the same "
+            "mathematical ratios that produce musical consonance also govern planetary "
+            "motion and the symmetry of the human body."
+        )
+    if any(k in title_lower for k in ("table", "square", "character", "image", "seal", "sigil")):
+        return (
+            "The character and image chapters of Book II develop the sigil-construction "
+            "programme that Lehrich (2003) identifies as Agrippa's most complete attempt "
+            "to make mathematical structure generate magical writing. The planetary tables "
+            "(magic squares) of chapter II:35 are the model: written characters derived "
+            "from the path of a spirit's name through a numbered grid embody celestial "
+            "virtue in a transferable form. Miles (2008) reads this programme as appearing "
+            "to endorse natural-language theory while being complicated by the theoretical "
+            "qualifications of Book III."
+        )
+    if any(k in title_lower for k in ("number", "scale", "digit", "ternary", "quaternary",
+                                       "unity", "seven", "eight", "nine", "ten", "eleven")):
+        return (
+            "The number-scale chapters — one of the most distinctive structural features "
+            "of DOP — present Pythagorean-Neoplatonic number theory in the form of "
+            "comparative tables linking each number to its correspondences at every level "
+            "of reality. Lehrich (2003) traces the tradition to Iamblichus's <em>Theology "
+            "of Arithmetic</em>, noting that for Agrippa as for Iamblichus, numbers are "
+            "not abstract quantities but ontological principles that structure existence "
+            "from its highest to its lowest levels. Daniels (1964) emphasises the "
+            "empiricist dimension: the scales are ultimately maps of observed correspondences."
+        )
+    # Default Book II note
+    return (
+        "Book II is described by Lehrich (2003) as 'Mathematical Magic' — the celestial "
+        "level of the ascending programme, in which Pythagorean and Neoplatonic number "
+        "theory reveals the proportional structures that organise the cosmos. The "
+        "transition from Book I's elemental correspondences to Book II's mathematical "
+        "ones marks a shift from observation of particular things to understanding of "
+        "universal principles. Miles (2008) notes the paradox: Book II's elaborate "
+        "systems of sacred names and numerical characters appear to endorse a 'natural "
+        "language' theory of magical power, but this reading is complicated by the "
+        "deeper qualifications Agrippa introduces in Book III."
+    )
+
+
+def _book3_theme(title_lower: str) -> str:
+    if any(k in title_lower for k in ("angel", "spirit", "order", "hierarchy", "demon",
+                                       "evil", "genii", "intelligence")):
+        return (
+            "Lehrich's monograph is, in its entirety, an argument about how Agrippa "
+            "theorises contact with the angelic and demonic hierarchy. The angel/demon "
+            "chapters of Book III provide the theological and cosmological taxonomy "
+            "within which the magician's operations are classified as licit or illicit: "
+            "angelic operations are legitimate because angels mediate the divine will; "
+            "demonic operations are dangerous because demons can deceive. Van der Poel (1997) "
+            "situates this demonology within Agrippa's broadly orthodox Catholic theology, "
+            "in which the proper relationship between humans and supernatural beings is "
+            "governed by faith, prayer, and moral purity."
+        )
+    if any(k in title_lower for k in ("name", "divine", "god", "tetragrammaton", "sephiroth",
+                                       "kabbalah", "kabbalistic", "seventy-two")):
+        return (
+            "The divine-name chapters are the Kabbalistic apex of DOP's ascending programme. "
+            "Lehrich (2003) reads them as Agrippa's most serious engagement with the question "
+            "of how human language can approach divine reality: the divine names are the "
+            "points at which the infinite descends into the finite, and the magician who "
+            "knows them participates in the divine creative act. Miles (2008) provides the "
+            "crucial qualification: the names work only through the faith of those who use "
+            "them, not through any intrinsic linguistic property — a position Agrippa states "
+            "explicitly in III:11 but which structures the entire Kabbalistic section."
+        )
+    if any(k in title_lower for k in ("soul", "ecstasy", "frenzy", "dream", "prophecy",
+                                       "prophetical", "madness", "vision", "rapture")):
+        return (
+            "The soul and prophecy chapters describe the conditions under which the human "
+            "soul can transcend ordinary cognition and receive divine knowledge directly. "
+            "Lehrich (2003) reads this cluster as the culmination of the ascending programme: "
+            "the magician who has mastered natural and celestial correspondences can now, "
+            "through ecstasy and prophetic states, achieve direct encounter with the divine "
+            "intelligences. Newman (1993) connects Agrippa's treatment of ecstatic states "
+            "to his Hermetic and Neoplatonic anthropology, in which the soul's highest "
+            "faculty is capable of direct union with God."
+        )
+    if any(k in title_lower for k in ("ceremony", "ritual", "consecration", "purifi",
+                                       "unction", "sacrifice", "purgation", "ablution",
+                                       "fasting", "prayer", "chastity")):
+        return (
+            "The ritual and preparatory chapters of Book III describe the moral and "
+            "procedural conditions that the magician must satisfy before undertaking "
+            "higher operations. Van der Poel (1997) emphasises that this material reflects "
+            "genuine religious conviction rather than mere formulaic piety: for Agrippa, "
+            "ritual purity and moral transformation are constitutive of magical efficacy, "
+            "not merely customary preliminaries. Miles (2008) reads the detailed ritual "
+            "instructions as setting up the retraction-paradox of the epilogue: by "
+            "providing full procedural detail, Agrippa enables — and then appears to "
+            "withdraw — access to the most powerful operations."
+        )
+    if any(k in title_lower for k in ("bind", "ligature", "conjure", "adjur", "exorcism",
+                                       "invocation", "pact", "compact")):
+        return (
+            "The chapters on binding, invocation, and exorcism represent the operative "
+            "core of ceremonial magic — the actual techniques of spirit-communication. "
+            "Lehrich (2003) analyses these chapters in relation to the broader theory of "
+            "magical signification: to bind a spirit is not to coerce a physical entity "
+            "but to deploy the correct names, seals, and ritual conditions that align the "
+            "operator with the spirit's position in the celestial hierarchy. "
+            "Miles (2008) notes that the comprehensive treatment of these techniques "
+            "constitutes the material that Agrippa's apparent retraction in the epilogue "
+            "attempts to disown — a move Miles reads as paradox rather than genuine repudiation."
+        )
+    # Default Book III note
+    return (
+        "Book III's subject is ceremonial or intellectual magic — the operations performed "
+        "at the highest of Agrippa's three world-levels, the divine or intellectual realm. "
+        "Lehrich (2003) argues that this book addresses the central problem of the entire "
+        "work: how can the human magician make genuine contact with the divine? The answer "
+        "involves the hierarchy of angels and demons, the power of divine names, the "
+        "ritual preparation of the magician, and ultimately the capacity for ecstatic "
+        "union with God. Van der Poel (1997) situates Book III within Agrippa's broader "
+        "theological project: ceremonial magic is not a rival to Christian religion but "
+        "an intensification of it, demanding the same virtues of faith, hope, and charity "
+        "that theology identifies as conditions of union with God."
+    )
+
+
+def scholar_section(book: int, chapter: int, title_en: str) -> str:
+    """Return a <div class='scholarly-section'> HTML block for this chapter."""
+    note = ""
+    # 1. Chapter-specific note
+    if (book, chapter) in SCHOLARLY_NOTES:
+        note = SCHOLARLY_NOTES[(book, chapter)]
+    # 2. Epistle fallback
+    elif book == 0:
+        note = SCHOLARLY_NOTES.get((0, -1), "")
+    # 3. Theme-based fallback
+    else:
+        t = (title_en or "").lower()
+        if book == 1:
+            note = _book1_theme(t)
+        elif book == 2:
+            note = _book2_theme(t)
+        elif book == 3:
+            note = _book3_theme(t)
+
+    if not note:
+        return ""
+
+    return (
+        "\n<div class='scholarly-section'>"
+        "<h3>Scholarly Perspectives</h3>"
+        f"<p>{note}</p>"
+        "</div>"
+    )
+
+
+# ─────────────────────────────────────────────────────────────────────────────
 # Scholarly summary generation
 # ─────────────────────────────────────────────────────────────────────────────
 
@@ -543,6 +1093,24 @@ main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 .chapter-page .essay { font-family: var(--font-serif); font-size: 1rem; line-height: 1.75; }
 .chapter-page .essay p { margin-bottom: 1.25rem; }
 
+/* Scholarly section */
+.scholarly-section {
+  margin-top: 2rem;
+  padding: 1.2rem 1.4rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+.scholarly-section h3 {
+  font-size: .8rem; font-weight: 600; color: var(--accent);
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .7rem;
+}
+.scholarly-section p {
+  font-family: var(--font-serif); font-size: .95rem; line-height: 1.7;
+  color: var(--text);
+}
+
 /* Footer */
 footer {
   text-align: center; padding: 2rem; font-size: .8rem;
@@ -604,6 +1172,7 @@ def chapter_page_html(entry: dict, title_lat: str) -> str:
     display_title = title_en or (title_lat or label_1533)
     badge_class, badge_text = diff_badge(desc)
     essay_html = chapter_essay(label_1533, title_en, title_lat, desc)
+    scholarly_html = scholar_section(book, chap, title_en)
 
     book_label = book_name(book) if book > 0 else "Prefatory Epistles"
     if book > 0:
@@ -642,12 +1211,14 @@ def chapter_page_html(entry: dict, title_lat: str) -> str:
 
   <div class="essay">
     {essay_html}
+    {scholarly_html}
   </div>
 </div>
 </main>
 <footer>
   Data extracted from: V. Perrone Compagni (ed.), <em>De occulta philosophia libri tres</em> (Brill, 1992).
-  Differences sourced from the edition's Table of Comparison. Short fair-use excerpts only.
+  Scholarly commentary draws on: C. Lehrich (2003), M. van der Poel (1997), C. Miles (2008), B. Newman (1993), G. Daniels (1964).
+  Short fair-use excerpts only.
 </footer>
 </body>
 </html>"""
