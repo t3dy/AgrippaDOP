@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agrippa Scholarship — De occulta philosophia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>De occulta philosophia — 1510 / 1533 Comparison</h1>
+  <div class="subtitle">Agrippa von Nettesheim · Würzburg draft (W) vs. Cologne edition (K)</div>
+  <nav>
+    <a href="index.html">← Chapter Index</a>
+    <a href="scholarship.html">Scholarship</a>
+  </nav>
+</header>
+<main>
+  <div class="book-section">
+    <div class="book-header">
+      <h2 style="font-family:var(--font-serif);color:var(--accent)">Agrippa Scholarship</h2>
+      <span class="book-stats">25 works · monographs, articles, editions, reviews</span>
+    </div>
+    <p style="max-width:700px;margin-bottom:1.5rem;font-family:var(--font-serif);font-size:.95rem;line-height:1.7;color:var(--text-muted)">
+      Scholarly works from the collection at <code>E:\pdf\renaissance magic\Agrippa\</code>.
+      Full essays cover the major monographs and articles; review entries provide contextual notes.
+      All essays are original commentary; no continuous text from copyrighted editions is reproduced.
+    </p>
+    <div class="filter-bar">
+      <input type="text" id="schol-search" placeholder="Search author, title, keyword…" oninput="filterSchol()">
+      <select id="schol-type" onchange="filterSchol()">
+        <option value="">All types</option>
+        <option value="badge-new">Monographs</option>
+        <option value="badge-revised">Articles</option>
+        <option value="badge-preserved">Editions</option>
+        <option value="badge-unknown">Reviews</option>
+      </select>
+    </div>
+    <div class="card-grid" id="schol-grid">
+
+    <a class="card" href="scholarship/lehrich-2003.html">
+      <div class="card-label">2003 · Christopher I. Lehrich</div>
+      <div class="card-title">The Language of Demons and Angels: Cornelius Agrippa's Occult Philosophy</div>
+      <div class="card-blurb">The leading modern study of Agrippa's occult philosophy as a coherent philosophy of language, reading DOP through the lens of semiotics and Renaissance hermeneutics.</div>
+      <span class="badge badge-new">Monograph</span>
+    </a>
+    <a class="card" href="scholarship/van-der-poel-1997.html">
+      <div class="card-label">1997 · Marc van der Poel</div>
+      <div class="card-title">Cornelius Agrippa, the Humanist Theologian and His Declamations</div>
+      <div class="card-blurb">The authoritative study of Agrippa's rhetorical and humanist context, situating the Declamations (including De incertitudine) within the traditions of deliberative oratory and scholarly paradox.</div>
+      <span class="badge badge-new">Monograph</span>
+    </a>
+    <a class="card" href="scholarship/tyson-1993.html">
+      <div class="card-label">1993 · Donald Tyson (ed. and comm.)</div>
+      <div class="card-title">Three Books of Occult Philosophy (Complete Annotated Translation)</div>
+      <div class="card-blurb">The most complete English edition of the DOP, combining Freake's 1651 translation with Tyson's exhaustive modern commentary, source identifications, and corrected magic squares.</div>
+      <span class="badge badge-preserved">Edition / Translation</span>
+    </a>
+    <a class="card" href="scholarship/perrone-compagni-1992.html">
+      <div class="card-label">1992 · Vittoria Perrone Compagni (ed.)</div>
+      <div class="card-title">De occulta philosophia libri tres</div>
+      <div class="card-blurb">The authoritative critical edition of the DOP, establishing the text of both the 1510 Würzburg manuscript and the 1533 Cologne printing with full critical apparatus.</div>
+      <span class="badge badge-preserved">Critical Edition</span>
+    </a>
+    <a class="card" href="scholarship/rabil-1996.html">
+      <div class="card-label">1996 · Henricus Cornelius Agrippa; trans. and ed. Albert Rabil Jr.</div>
+      <div class="card-title">Declamation on the Nobility and Preeminence of the Female Sex</div>
+      <div class="card-blurb">The authoritative English edition of Agrippa's feminist declamation, with Rabil's introduction placing the work within the querelle des femmes and the Other Voice tradition.</div>
+      <span class="badge badge-preserved">Edition / Translation</span>
+    </a>
+    <a class="card" href="scholarship/garin-1955.html">
+      <div class="card-label">1955 · E. Garin, M. Brini, C. Vasoli, P. Zambelli (eds.)</div>
+      <div class="card-title">Testi umanistici su l'ermetismo: Testi di L. Lazzarelli, G. Veneto, C. Agrippa</div>
+      <div class="card-blurb">An early landmark collection placing Agrippa's work alongside Lazzarelli and Giorgio Veneto, with Garin's historiographical essay establishing hermeticism as a serious subject of Renaissance studies.</div>
+      <span class="badge badge-preserved">Edition / Anthology</span>
+    </a>
+    <a class="card" href="scholarship/newman-1993.html">
+      <div class="card-label">1993 · Barbara Newman</div>
+      <div class="card-title">Renaissance Feminism and Esoteric Theology: The Case of Cornelius Agrippa</div>
+      <div class="card-blurb">Argues that Agrippa's feminism in the Declamatio is not merely rhetorical but grounded in a genuine esoteric theology identifying the divine feminine with the Shekhinah and the anima mundi.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/daniels-1964.html">
+      <div class="card-label">1964 · George H. Daniels Jr.</div>
+      <div class="card-title">Knowledge and Faith in the Thought of Cornelius Agrippa</div>
+      <div class="card-blurb">A foundational article arguing that Agrippa's scepticism in De incertitudine is not a repudiation of the DOP but an expression of a consistent fideist epistemology underwriting both works.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/miles-2008.html">
+      <div class="card-label">2008 · Chris Miles</div>
+      <div class="card-title">Occult Retraction: Cornelius Agrippa and the Paradox of Magical Language</div>
+      <div class="card-blurb">The most sustained rhetorical analysis of the DOP's concluding retraction, arguing that the language theory of Book III is self-undermining and that the retraction is logically entailed by Agrippa's own premises.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/richey-1997.html">
+      <div class="card-label">1997 · Esther Gilman Richey</div>
+      <div class="card-title">"To Undoe the Booke": Cornelius Agrippa, Aemilia Lanyer, and the Subversion of Pauline Authority</div>
+      <div class="card-blurb">Traces the influence of Agrippa's feminist hermeneutics on the poet Aemilia Lanyer's Salve Deus Rex Judaeorum, showing how Agrippa's inversion of Pauline authority passed into English Renaissance literary feminism.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/w-newman-1982.html">
+      <div class="card-label">1982 · William R. Newman</div>
+      <div class="card-title">Thomas Vaughan as an Interpreter of Agrippa von Nettesheim</div>
+      <div class="card-blurb">Documents how the Welsh alchemist Thomas Vaughan (1622–1666) read and adapted Agrippa's natural philosophy, tracing the transmission of Agrippa's doctrines into mid-seventeenth-century English alchemy.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/bowen-1972.html">
+      <div class="card-label">1972 · Barbara C. Bowen</div>
+      <div class="card-title">Cornelius Agrippa's De Vanitate: Polemic or Paradox?</div>
+      <div class="card-blurb">A careful generic analysis arguing that De incertitudine belongs to the Erasmian tradition of paradoxical rhetoric, with structural parallels to the Encomium Moriae, rather than to sincere philosophical scepticism.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/schipperges-2003.html">
+      <div class="card-label">2003 · Thomas Schipperges</div>
+      <div class="card-title">Vom leeren Schein der Musik: Paradoxa der effectus musicae in Agrippa von Nettesheims Declamatio de incertitudine</div>
+      <div class="card-blurb">Analyses the tension between Agrippa's enthusiastic musical theory in the DOP (where music is a powerful magical force) and his dismissal of music in De incertitudine, arguing this exemplifies his broader epistemological paradox.</div>
+      <span class="badge badge-revised">Journal Article (German)</span>
+    </a>
+    <a class="card" href="scholarship/le-paige-1964.html">
+      <div class="card-label">1964 · Frédéric Le Paige</div>
+      <div class="card-title">Un humaniste des pays médians: Heinrich Cornelius Agrippa de Nettesheim</div>
+      <div class="card-blurb">A biographical portrait situating Agrippa within the intellectual culture of the Burgundian Netherlands, emphasizing his connections to Erasmian humanism and to the Habsburg court culture of the Low Countries.</div>
+      <span class="badge badge-revised">Journal Article (French)</span>
+    </a>
+    <a class="card" href="scholarship/rock-1913.html">
+      <div class="card-label">1913 · Friedrich Röck</div>
+      <div class="card-title">Der Denarzyklus des Agrippa von Nettesheim</div>
+      <div class="card-blurb">An early philological study identifying the sources of Agrippa's animal-decade (Denarzyklus) in Book I in the ancient astronomer Teukros of Babylon and the decanic tradition.</div>
+      <span class="badge badge-revised">Journal Article (German)</span>
+    </a>
+    <a class="card" href="scholarship/judson-1926.html">
+      <div class="card-label">1926 · Alexander C. Judson</div>
+      <div class="card-title">Cornelius Agrippa and Henry Vaughan</div>
+      <div class="card-blurb">Identifies Agrippa's De incertitudine as the source for Henry Vaughan's poem 'The Ass', documenting the seventeenth-century English reception of Agrippa's sceptical writings.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/rudrum-1972.html">
+      <div class="card-label">1972 · Alan Rudrum</div>
+      <div class="card-title">Vaughan's 'The Tempest': A Source in Cornelius Agrippa</div>
+      <div class="card-blurb">Identifies a specific passage in DOP Book I as the source for Henry Vaughan's poem 'The Tempest', extending the documented network of Agrippa's influence on the Vaughan brothers.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/cunha-1937.html">
+      <div class="card-label">1937 · Felix Cunha</div>
+      <div class="card-title">Henry Cornelius Agrippa von Nettesheim</div>
+      <div class="card-blurb">A biographical essay by a medical historian, notable for documenting Agrippa's activities as a physician and his views on medicine in De incertitudine, situating him within the history of Renaissance medicine.</div>
+      <span class="badge badge-revised">Journal Article</span>
+    </a>
+    <a class="card" href="scholarship/calvet-2014.html">
+      <div class="card-label">2014 · Antoine Calvet</div>
+      <div class="card-title">Henry Cornelius Agrippa, De Arte Chimica: A Critical Edition of the Latin Text with a Seventeenth-Century English Translation</div>
+      <div class="card-blurb">A review article discussing the critical edition of Agrippa's spurious alchemical treatise De Arte Chimica, addressing questions of attribution and Agrippa's relationship to the alchemical tradition.</div>
+      <span class="badge badge-unknown">Review Article</span>
+    </a>
+    <a class="card" href="scholarship/desmed-1979.html">
+      <div class="card-label">1979 · R. Desmed</div>
+      <div class="card-title">Review: Of the Vanitie and Uncertaintie of Artes and Sciences by Henry Cornelius Agrippa, ed. Catherine M. Dunn</div>
+      <div class="card-blurb">A review of the first modern critical edition of the Elizabethan English translation of De incertitudine, assessing its editorial apparatus and its value for the study of Agrippa's reception in sixteenth-century England.</div>
+      <span class="badge badge-unknown">Review</span>
+    </a>
+    <a class="card" href="scholarship/dinzelbacher-1994.html">
+      <div class="card-label">1994 · Peter Dinzelbacher</div>
+      <div class="card-title">Review: Cornelius Agrippa, De occulta philosophia libri tres, ed. Vittoria Perrone Compagni</div>
+      <div class="card-blurb">An evaluation of the Perrone Compagni critical edition from a medievalist perspective, assessing the edition's handling of medieval sources and the adequacy of its treatment of Agrippa's relationship to scholastic thought.</div>
+      <span class="badge badge-unknown">Review</span>
+    </a>
+    <a class="card" href="scholarship/pereira-1994.html">
+      <div class="card-label">1994 · Michela Pereira</div>
+      <div class="card-title">Review: Cornelius Agrippa, De occulta philosophia libri tres, ed. Vittoria Perrone Compagni</div>
+      <div class="card-blurb">An assessment of the Perrone Compagni edition from a historian of science perspective, evaluating its contribution to the study of Renaissance natural philosophy and the occult tradition.</div>
+      <span class="badge badge-unknown">Review</span>
+    </a>
+    <a class="card" href="scholarship/broeke-2005.html">
+      <div class="card-label">2005 · Steven Vanden Broeke</div>
+      <div class="card-title">Review: Christopher I. Lehrich, The Language of Demons and Angels</div>
+      <div class="card-blurb">A critical assessment of Lehrich's monograph that acknowledges its philosophical originality while raising concerns about anachronism in its application of post-structuralist theory to sixteenth-century texts.</div>
+      <span class="badge badge-unknown">Review</span>
+    </a>
+    <a class="card" href="scholarship/nauert-1997.html">
+      <div class="card-label">1997 · Charles G. Nauert</div>
+      <div class="card-title">Review: Rabil, Declamation on the Nobility and Preeminence of the Female Sex</div>
+      <div class="card-blurb">A brief but authoritative assessment of Rabil's edition of the Declamatio from one of the leading historians of Agrippa's intellectual biography.</div>
+      <span class="badge badge-unknown">Review</span>
+    </a>
+    <a class="card" href="scholarship/sanford-1569.html">
+      <div class="card-label">1569 · Henry Cornelius Agrippa; trans. James Sanford</div>
+      <div class="card-title">Of the Vanitie and Vncertaintie of Artes and Sciences (English translation)</div>
+      <div class="card-blurb">The Elizabethan English translation of De incertitudine by James Sanford (1569), the first extended English version of any Agrippa text and an important document in his Elizabethan reception.</div>
+      <span class="badge badge-preserved">Historical Translation</span>
+    </a>
+    </div>
+  </div>
+</main>
+<footer>
+  Essays are original scholarly commentary. Short fair-use excerpts only from copyrighted works.
+  Primary source: V. Perrone Compagni (ed.), <em>De occulta philosophia libri tres</em> (Brill, 1992).
+</footer>
+<script>
+function filterSchol() {
+  const q = document.getElementById('schol-search').value.toLowerCase();
+  const t = document.getElementById('schol-type').value;
+  document.querySelectorAll('#schol-grid .card').forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const badge = card.querySelector('.badge');
+    const badgeClass = badge ? badge.className : '';
+    const matchQ = !q || text.includes(q);
+    const matchT = !t || badgeClass.includes(t);
+    card.style.display = (matchQ && matchT) ? '' : 'none';
+  });
+}
+</script>
+</body>
+</html>

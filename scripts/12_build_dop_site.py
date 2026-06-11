@@ -1194,7 +1194,7 @@ def chapter_page_html(entry: dict, title_lat: str) -> str:
 <header>
   <h1>De occulta philosophia — 1510 / 1533 Comparison</h1>
   <div class="subtitle">Agrippa von Nettesheim · Würzburg draft (W) vs. Cologne edition (K)</div>
-  <nav><a href="../index.html">← All Chapters</a></nav>
+  <nav><a href="../index.html">← All Chapters</a> <a href="../scholarship.html">Scholarship</a></nav>
 </header>
 <main>
 <div class="chapter-page">
@@ -1315,6 +1315,7 @@ def index_html(entries: list[dict], titles_map: dict) -> str:
     <a href="#book1">Book I</a>
     <a href="#book2">Book II</a>
     <a href="#book3">Book III</a>
+    <a href="scholarship.html">Scholarship</a>
   </nav>
 </header>
 <main>
