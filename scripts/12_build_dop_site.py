@@ -237,6 +237,497 @@ EPIST_LABELS: dict[str, str] = {
 #              Paradox?" BHR 34 (1972)
 # ─────────────────────────────────────────────────────────────────────────────
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Close readings of Agrippa's own argument, keyed by (book, chapter).
+# These accompany the SCHOLARLY_NOTES and focus on what Agrippa is actually
+# doing in each chapter: which tradition he draws on, what his distinctive
+# move is, and how the chapter functions in his systematic architecture.
+# ─────────────────────────────────────────────────────────────────────────────
+CHAPTER_READINGS: dict[tuple[int, int], str] = {
+
+    # ── Epistles ─────────────────────────────────────────────────────────────
+    (0, -1): (
+        "The prefatory letters establish the social and intellectual conditions of the "
+        "work's legitimacy before its philosophical argument begins. By addressing "
+        "Trithemius — the most respected scholar of occult subjects in the German-speaking "
+        "world — Agrippa secures his credentials within a community of learned inquiry. "
+        "His claim that magic has been 'perverted and defiled' by those who detach it from "
+        "its philosophical foundations is not humility but a polemical positioning: <em>De "
+        "occulta philosophia</em> will restore magic to its proper status as 'the most "
+        "perfect accomplishment of the noblest philosophy' (<em>totius nobilissimae "
+        "philosophiae absoluta consummatio</em>). The letters are the first move in "
+        "Agrippa's rehabilitation project — drawing on the Neoplatonic tradition of "
+        "esoteric writing that reserves true knowledge for prepared readers."
+    ),
+
+    # ── Book I ────────────────────────────────────────────────────────────────
+    (1, 1): (
+        "Agrippa's opening move is architectural: to establish three ontological registers "
+        "— elemental, celestial, intellectual — as the framework within which all magical "
+        "operations will be classified. Drawing on Ficino's graduated cosmos and Pico's "
+        "hierarchical natural philosophy, he makes the crucial claim that these three levels "
+        "are not merely descriptive categories but operative domains: the magician works "
+        "differently at each level, using different instruments and different knowledge. "
+        "This is Agrippa's most distinctive contribution relative to his predecessors — "
+        "the strict structural mapping of philosophical cosmology onto a programme of "
+        "practice. The chapter is load-bearing: without this tripartite scaffolding, the "
+        "three books of the DOP have no unifying logic."
+    ),
+    (1, 2): (
+        "Agrippa's definition of magic as <em>totius nobilissimae philosophiae absoluta "
+        "consummatio</em> is a deliberate elevation beyond his sources. Where Pico called "
+        "magic 'the most perfect accomplishment of natural philosophy,' Agrippa substitutes "
+        "'noblest philosophy' — a term that encompasses all three registers "
+        "(natural, celestial, divine) and not merely the elemental tier. The operative "
+        "formula is 'uniting the virtues of things through the application of them one to "
+        "the other': magic is the discipline of correspondence, of traversing the links "
+        "that connect hierarchically ordered spheres. This makes the definition architecturally "
+        "necessary for everything that follows — it is not a claim about magic as a craft "
+        "but a philosophical proposition about the structure of reality and the cognitive "
+        "activity appropriate to it. Agrippa draws on Neoplatonic sympathy theory, "
+        "Hermetic correspondence, and Christian Kabbalah simultaneously, treating them as "
+        "complementary articulations of a single cosmological truth."
+    ),
+    (1, 3): (
+        "This chapter's argument turns on Platonic elemental theory: earth alone, among "
+        "the four elements, resists fundamental transmutation — it is <em>intransmutabilis</em> "
+        "(not convertible into other elements, only dissolved or mixed). Agrippa draws on "
+        "Plato's <em>Timaeus</em> and the Neoplatonic commentary tradition, but his emphasis "
+        "on earth's unique ontological stability is oriented toward an alchemical conclusion: "
+        "a substance that persists through elemental change without being converted is a "
+        "candidate for the <em>prima materia</em>, the universal substrate underlying "
+        "elemental differentiation. The chapter belongs to the systematic argument of I:3–6 "
+        "establishing the cosmological conditions for occult virtues, and specifically for "
+        "the reception of celestial rays and the seminal virtues Agrippa will invoke throughout "
+        "Book I's natural-magic programme."
+    ),
+    (1, 4): (
+        "Agrippa here introduces a threefold hierarchy of elements — pure and incorruptible, "
+        "compound but reducible, and decomposed and convertible — that mirrors the tripartite "
+        "cosmological structure of the entire DOP. His most significant move is describing the "
+        "third, derivative order as 'operative, as in magic natural, so divine,' achievable "
+        "through 'certain numbers, degrees, and orders.' Where Trithemius (his primary source "
+        "for this elemental doctrine) describes purification in explicitly alchemical terms "
+        "emphasizing transformation of the operator, Agrippa deliberately keeps his language "
+        "abstract and cosmological. He is drawing on the Trithemian tradition while opening "
+        "it toward a more universal philosophical framework — one in which the operator's "
+        "transformation and the material transformation are aspects of a single ontological "
+        "movement back toward divine simplicity."
+    ),
+    (1, 5): (
+        "The chapter's central claim — that earth, 'purged by the artifice of fire and reduced "
+        "to its simplicity by an agreeable washing,' discloses its 'greatest secrets' — is "
+        "Agrippa's most explicit engagement with alchemical doctrine in Book I. Drawing on "
+        "Neoplatonic cosmology (earth as 'the object, subject, and receptacle of all celestial "
+        "rays') and alchemical natural philosophy (earth as container of 'seeds and seminal "
+        "virtues'), Agrippa argues that the elemental substrate of reality is not inert but "
+        "actively receives and stores the downward flow of celestial influence. The purification "
+        "claim orients this cosmological argument toward an operative conclusion: the secrets "
+        "of matter are recoverable through a technique that removes impurity and restores "
+        "original simplicity. This is not chrysopoeia (gold-making) but philosophical alchemy "
+        "— the recovery of elemental purity as an epistemic and spiritual act."
+    ),
+    (1, 10): (
+        "Agrippa uses an Aristotelian term — 'occult qualities' — to argue against Aristotelian "
+        "epistemology. Occult qualities are called occult, he states, because 'their causes lie "
+        "beyond the reach of human intellect': they cannot be known through rational demonstration "
+        "from first principles. This move simultaneously acknowledges a limit of natural reason "
+        "and elevates empirical experience as the appropriate alternative: since causes cannot "
+        "be demonstrated, effects as reported by experience become the primary evidence. The "
+        "chapter thus establishes the epistemological foundation of the entire natural-magic "
+        "programme — not Aristotelian causal explanation but a form of experimental testimony "
+        "that trusts the accumulated record of what things do over any theoretical account of "
+        "why. This is Agrippa's characteristic anti-scholastic move: using the scholastic "
+        "vocabulary of occult qualities to open a space that Aristotelian science cannot fill."
+    ),
+    (1, 11): (
+        "The chapter's key philosophical move is the identification of the <em>spiritus mundi</em> "
+        "with the alchemists' <em>quinta essentia</em>. Agrippa draws on Ficinian Neoplatonism "
+        "(the <em>anima mundi</em> generating all stellar virtues and impressing them on "
+        "sublunary matter) but adds the alchemical identification: the world-spirit that "
+        "distributes cosmic qualities is the same substance that alchemists seek to isolate "
+        "and concentrate. This fusion of Neoplatonic cosmology with alchemical natural "
+        "philosophy is Agrippa's synthetic move — it opens his natural-magic system to "
+        "alchemical interpretation while grounding it in a philosophically respectable "
+        "Platonic framework. The <em>spiritus mundi</em> is the mechanism by which occult "
+        "virtues descend from celestial causes into material receptacles — and therefore "
+        "the ontological medium through which natural magic operates."
+    ),
+    (1, 14): (
+        "Agrippa reports his own failed experimental attempt to multiply gold by weight beyond "
+        "the quantity of the source material, then immediately qualifies the report: he does "
+        "not deny such multiplication 'can be done by another artifice.' The combination is "
+        "characteristic of Agrippa's philosophical style — empirical honesty about what he "
+        "has and has not achieved, paired with principled openness to further possibilities "
+        "he has not yet demonstrated. The chapter's discussion of extracting the <em>spiritus</em> "
+        "from gold and silver reorients alchemical inquiry from external transmutation to the "
+        "interior pneumatic dimension: the gold's <em>spiritus</em>, not the gold itself, "
+        "is the object of philosophical alchemy. This is Agrippa's distinctive contribution "
+        "to alchemical discourse — distinguishing vulgar chrysopoeia from a philosophical "
+        "alchemy of spirit, grounded in the same <em>spiritus mundi</em> theory that "
+        "underpins Book I's natural-magic programme."
+    ),
+    (1, 42): (
+        "The chapter demonstrates the natural-magic programme at its most challenging: the "
+        "same substance (menstrual blood, from Pliny's <em>Natural History</em>) simultaneously "
+        "cures fevers, repels vermin, banishes serpents, and poisons everything it touches. "
+        "Agrippa's argument is not that this is credible folk medicine but that the Plinian "
+        "evidence illustrates the principle of occult virtues: a thing's power is irreducible "
+        "to its observable material properties, and may work beneficially or destructively "
+        "depending on what it is applied to. The explanatory formula — 'the power of this "
+        "poison is so great that it is a poison even to poisonous creatures' — exemplifies "
+        "Agrippa's empiricist epistemology: the cause (whatever makes menstrual blood "
+        "efficacious) lies beyond reason's reach; the effects, as attested by Pliny and "
+        "others, are the evidence. This same material will later be re-deployed in "
+        "<em>De nobilitate</em> with its negative valence suppressed — evidence of "
+        "deliberate rhetorical selection, not naive credulity."
+    ),
+    (1, 58): (
+        "The chapter makes visible the epistemological consequence of the natural-magic "
+        "programme's foundational commitment to empirical testimony over theoretical "
+        "demonstration. Agrippa accepts the report of men revived from death because it is "
+        "'certified abundantly by approved scholars' — he is not credulous but consistent: "
+        "if causes lie beyond reason and experience is the only guide, then the weight of "
+        "learned testimony constitutes the relevant epistemic standard. This is the same "
+        "logic that governs the systematic collection of natural-magical correspondences "
+        "throughout Book I. The chapter shows Agrippa's natural philosophy at its extreme "
+        "boundary, where empiricism without theoretical constraint produces openness to "
+        "marvels that reason would exclude — but which experience, properly understood, "
+        "cannot rule out. Daniels's reading (that this is Agrippa's empiricism applied "
+        "consistently) is more illuminating than treating it as a lapse of critical judgment."
+    ),
+    (1, 65): (
+        "The chapter is the capstone of Book I's argument and the point where natural magic "
+        "touches the celestial register. Agrippa's claim — that 'the mind is far more "
+        "powerful, strong, fervent, and more prevalent by its motion than vapours exhaling "
+        "out of bodies' — identifies mental intention as a natural force stronger than "
+        "material ones. The philosophical framework is Neoplatonic: the tripartite human "
+        "being (mind / reason / sensory faculty) mirrors the tripartite cosmos, and the "
+        "mind's celestial portion can act on natural bodies by the same logic that governs "
+        "stellar influence. Mental magic is therefore not transgression but the natural "
+        "magic of the highest human faculty. Agrippa cites Apollonius and Pythagoras as "
+        "practitioners — invoking the Hermetic and Pythagorean traditions to ground the "
+        "claim. The chapter's closing deferral ('the virtues of the fantasy are "
+        "subordinated to reason, and reason to mind') establishes the hierarchy that "
+        "ceremonial magic in Book III will complete."
+    ),
+    (1, 67): (
+        "The chapter makes self-knowledge a precondition of magical operation, drawing on "
+        "the Platonic maxim 'know thyself' as interpreted through Neoplatonic psychology. "
+        "Agrippa's argument is that the aspiring magician must 'know and understand the "
+        "property, virtue, measure, order, and degree of his own soul among the powers in "
+        "the universe itself' — the soul is not a private psychological entity but a "
+        "microcosmic participant in the cosmic hierarchy, and knowing the soul is knowing "
+        "one's position in the universal order. This grounds the magician's operations: "
+        "he works as a precisely located node in the cosmic network, not as an external "
+        "agent imposing will on matter. Agrippa draws on Ficino's Neoplatonic psychology "
+        "and the Hermetic *microcosmus* tradition while tilting toward a practical "
+        "epistemological conclusion: the magician who does not know himself cannot "
+        "know which operations his soul's position in the hierarchy licenses."
+    ),
+    (1, 69): (
+        "The chapter introduces Agrippa's philosophy of language by distinguishing between "
+        "the internal word (mental conception) and the external word (uttered sound). "
+        "Drawing on Stoic <em>logos</em> theory as mediated through Neoplatonic commentary, "
+        "Agrippa locates natural magical efficacy in the physical medium of speech — breath, "
+        "air, the organs of articulation — while locating meaning-bearing efficacy in the "
+        "rational-interpretive function that requires a prepared receiver. The invocation of "
+        "the Greek <em>logos</em> hints at an ideal 'perfect word' synthesizing all three "
+        "registers (natural, celestial, divine). This is the theoretical hinge between "
+        "Book I and Book II: language, as physical phenomenon, belongs to natural magic; "
+        "as carrier of meaning, it crosses into the celestial; as divine name, it reaches "
+        "the intellectual register. The chapter therefore establishes the graduated theory "
+        "of linguistic efficacy that will underpin the entire sign theory of Books II–III."
+    ),
+    (1, 73): (
+        "Agrippa's claim that 'writing is the last expression of the mind, and is the "
+        "number of speech and voice' — absent from the 1510 draft, a deliberate mature "
+        "addition — positions written inscription at the threshold between natural and "
+        "celestial magic. Speech belongs to the natural order (it is air shaped by bodily "
+        "organs); writing is further removed from the body and partakes more purely of "
+        "the rational (celestial) register. Writing's capacity to embody meaning in a "
+        "physical but non-temporal form — fixed, inspectable, transferable — makes it "
+        "the appropriate medium for mathematical-celestial operations. This is why "
+        "Book II's magical programme is primarily a programme of written characters, "
+        "tables, and sigils: writing is not merely the record of thought but its "
+        "closest material analogue in the natural world, and therefore the medium "
+        "through which celestial mathematical structure can be impressed on matter."
+    ),
+    (1, 74): (
+        "The chapter grounds written characters in cosmological necessity: the diverse "
+        "alphabets of human languages received their 'characters of writing' from celestial "
+        "bodies and divine virtues, not from human convention. Drawing on the Christian "
+        "Kabbalistic tradition (Pico, Reuchlin, Ricius) and specifically on the claim that "
+        "Hebrew characters correspond to stellar positions, Agrippa argues that sacred "
+        "alphabets are simultaneously iconic (visually resembling their celestial referents), "
+        "numerical (operating through gematria), and symbolic (authorized by divine "
+        "institution). His distinctive move is to assimilate Hebrew to the 'strange/foreign "
+        "words' (<em>barbara verba</em>) of ancient Neoplatonic theurgy — no human language, "
+        "including Hebrew, has intrinsic privilege; efficacy comes from the cosmological "
+        "anchoring and the faith of the practitioner. This completes the natural-magic "
+        "book's sign theory and authorizes the practical written operations of Book II."
+    ),
+
+    # ── Book II ───────────────────────────────────────────────────────────────
+    (2, 1): (
+        "Book II opens with the Pythagorean-Neoplatonic claim that number is the "
+        "structural principle of reality — not an abstract quantity imposed on things "
+        "from outside but the form through which God created the cosmos. Agrippa draws "
+        "on Iamblichus's <em>Theology of Arithmetic</em>, Nicomachus's <em>Introduction "
+        "to Arithmetic</em>, and Boethius's <em>De musica</em> to ground his mathematical "
+        "magic in a philosophical tradition that treats numbers as ontological causes "
+        "rather than descriptive labels. This is the move that elevates Book II above "
+        "a practical manual: the magic squares, planetary tables, and sigil-construction "
+        "methods are not techniques for manipulating spirits but demonstrations of how "
+        "the mathematical structure of the cosmos can be read and operated on by a "
+        "trained intellect. The chapter establishes mathematical magic as the appropriate "
+        "cognitive form for the celestial register."
+    ),
+    (2, 4): (
+        "The chapter presents what Agrippa calls 'one thing created by God, the subject "
+        "of every marvel on heaven and earth' — deliberately unnamed, described only by "
+        "its properties (animal, vegetable, and mineral; found everywhere; known by very "
+        "few) and identified in an accompanying diagram as 'the stone of the philosophers "
+        "/ the one subject and instrument of all natural and trans-natural virtues.' "
+        "Agrippa's argument traces unity's presence across all being-levels: God (as "
+        "Archetype), the <em>anima mundi</em> (as intellectual principle), the Sun "
+        "(as celestial unity), the heart (as the human centre), and Lucifer (as the "
+        "inverted unity of hell). The philosopher's stone is the elemental instantiation "
+        "of this universal principle of unity — not a material substance but the point "
+        "at which the elemental world reconnects with the One from which it descended. "
+        "Agrippa draws on a Trithemius letter interpreting the <em>Tabula Smaragdina</em> "
+        "cosmologically, fusing Hermetic, Neoplatonic, and alchemical traditions into a "
+        "single metaphysical claim: the unity underlying diversity is the object both of "
+        "philosophical contemplation and of operative magical and alchemical practice."
+    ),
+    (2, 22): (
+        "The chapter demonstrates Agrippa's mathematical-magic programme in technical "
+        "detail: the planetary magic squares contain spirit-names encoded through Hebrew "
+        "gematria, and the sigils derived from tracing the gematria values across the grid "
+        "are simultaneously mnemonic devices and operative instruments. Agrippa appears "
+        "to devise at least one original construction rule (for the solar square), "
+        "showing that this is not mere compilation but active engagement with the "
+        "mathematical tradition he inherits. The chapter is absent from the 1510 draft, "
+        "indicating a mature deliberate addition. The philosophical point is that "
+        "mathematical structure generates magical writing — the sigils are not "
+        "arbitrary symbols but traces of the spirit's position in the cosmic grid, "
+        "which is itself a projection of celestial numerical order onto a material surface. "
+        "This is the fullest practical demonstration of Agrippa's claim that the "
+        "celestial register operates through number and that number can be written."
+    ),
+    (2, 24): (
+        "The chapter opens Agrippa's treatment of musical effectus with a bold "
+        "cosmological claim: music is not merely a phenomenon that affects the soul "
+        "but a structured expression of celestial harmony itself. Drawing on "
+        "Tinctoris's <em>Complexus effectuum musices</em> as his immediate source, "
+        "Agrippa reframes the late-medieval catalogue of musical effects as a "
+        "demonstration of how celestial order operates through sound on embodied "
+        "human beings. The move is to make music technology rather than merely art: "
+        "understanding the celestial basis of musical harmony enables the practitioner "
+        "to compose and deploy music that directs affective and somatic states "
+        "deliberately. This is the positive pole of a diptych whose negative pole "
+        "is Agrippa's devastating critique of degenerate contemporary music in "
+        "<em>De incertitudine</em> — he attacks the degraded practice precisely "
+        "because he holds the standard of what music at its best is and does."
+    ),
+    (2, 25): (
+        "The chapter's claim that 'the heaven consists of harmonic composition and "
+        "governs and effects all things through harmonic tones and movements' grounds "
+        "musical magic in Pythagorean-Neoplatonic cosmology: celestial harmony is not "
+        "a metaphor but the literal organizing structure of the cosmos, and terrestrial "
+        "music participates in it. Agrippa draws on the <em>musica mundana</em> "
+        "tradition from Plato's <em>Timaeus</em> through Boethius, but makes it "
+        "operative: 'there is in sound a virtue for receiving celestial gifts.' "
+        "This is the mechanism by which musical magic works — properly composed "
+        "music in the right celestial conditions opens the soul to receive the "
+        "influence corresponding to the prevailing planetary harmony. The chapter "
+        "transforms music from a passive cultural product into an active instrument "
+        "for aligning the human soul with the celestial order."
+    ),
+    (2, 26): (
+        "The chapter states the operative principle of musical magic: 'no songs, sounds, "
+        "or musical instruments are more powerful for moving the emotions and inducing "
+        "magical impressions than those composed from numbers, measures, and proportions "
+        "after the fashion of the celestial.' Mathematical composition is the key — music "
+        "works magically not through emotional expressiveness but through the precision "
+        "of its proportional correspondence to celestial harmonics. Agrippa grounds this "
+        "in the quadrivial tradition (arithmetic, music as applied arithmetic, geometry, "
+        "astronomy) that links musical proportion to celestial proportion. His argument "
+        "explains why Book II's mathematical programme extends to music: the magic "
+        "squares of the planets and the harmonic proportions of celestial music are "
+        "different expressions of the same underlying numerical order, and the "
+        "practitioner who understands one understands both."
+    ),
+    (2, 28): (
+        "The chapter argues that music was introduced into divine worship by ancient "
+        "prophets and patriarchs precisely because they 'knew these harmonic sacraments' "
+        "(<em>haec harmonica sacramenta</em>) — that is, they understood the cosmological "
+        "basis of music's power and deliberately harnessed it for the elevation of "
+        "the worshipping community. Agrippa draws on the prophetic tradition of "
+        "sacred song (David, the Levitical choir) and the Pythagorean tradition of "
+        "musical healing (Pythagoras using music to cure psychological disorders) "
+        "to establish that music has always been understood by the wise as a "
+        "vehicle for spiritual and cosmological alignment. The ideal of rendering "
+        "man 'entirely celestial' through music is the Book II equivalent of "
+        "Book III's theurgic ascent — music is a kind of ceremonial magic operating "
+        "through the celestial register of sound rather than through sacred words and "
+        "ritual action."
+    ),
+    (2, 50): (
+        "The chapter culminates the mathematical-magic programme with its most ambitious "
+        "claim: that the magus who 'the elements being restrained, nature being overcome, "
+        "the heavens being overpowered,' transcends even the angelic orders and comes to "
+        "the Archetype itself, can 'give a soul to an image.' This is not conjuring "
+        "but theurgic participation — the magus becomes a 'cooperator' of God, "
+        "replicating through his own operations the divine creative act by which God "
+        "gave soul to the cosmos. Agrippa draws on Neoplatonic theurgy (Iamblichus, "
+        "Porphyry) and on Ficino's use of talisman-making as cosmological mediation. "
+        "His distinctive move is to connect this to a clear hierarchy of three "
+        "kinds of magic-image in the chapter: planetary images for specific effects, "
+        "images for prophetic dreams, and images animated by divine cooperation. "
+        "The third category establishes that mathematical magic has a theurgic "
+        "culmination — it points toward Book III before Book III has begun."
+    ),
+
+    # ── Book III ──────────────────────────────────────────────────────────────
+    (3, 1): (
+        "The chapter establishes religion as the non-negotiable ethical prerequisite of "
+        "all ceremonial magic. Agrippa's argument is structural, not merely prudential: "
+        "since the operations of Book III involve genuine contact with higher spiritual "
+        "powers, only a practitioner whose soul is rightly oriented toward God can "
+        "perform them without deception by evil demons. 'Holy religion purifies the "
+        "mind and makes it divine' — the phrase is not pious decoration but a claim "
+        "about the epistemological conditions of divine contact. Agrippa draws on "
+        "Neoplatonic theurgy (Iamblichus's insistence on ritual purity and divine "
+        "orientation) and on the Christian three theological virtues (faith, hope, "
+        "charity) as the content of the required piety. His synthesis is to treat "
+        "the pagan theurgic requirement of ritual purity as identical with the "
+        "Christian requirement of virtuous life — both are expressions of the "
+        "same structural necessity: the soul must be aligned with what it seeks "
+        "to contact."
+    ),
+    (3, 2): (
+        "The chapter provides the hermeneutical frame for everything that follows in "
+        "Book III. Agrippa's claim that 'divine powers detest public things and profane, "
+        "and love secrecy; so every magical experiment fleeth the public, seeks to be hid, "
+        "is strengthened by silence, but is destroyed by publication' is not a social "
+        "precaution but an epistemological proposition: a magical sign achieves its "
+        "effect only on a prepared receiver. The injunction to keep the 'holy determination' "
+        "concealed maps the text's operative logic onto its reading protocol: the "
+        "reader who proceeds through Books I and II without understanding the ascending "
+        "structure will find Book III an incomprehensible collection of rituals. "
+        "The prepared reader — who has internalized the sign theory of Books I–II "
+        "and who approaches Book III in the right disposition — finds an initiation "
+        "document. The chapter is absent from the 1510 draft, marking it as a "
+        "deliberate mature addition that reframes the entire project's relationship "
+        "to its audience."
+    ),
+    (3, 11): (
+        "This chapter conceals what is arguably the most philosophically significant "
+        "claim in the entire <em>De occulta philosophia</em>: that sacred words 'have "
+        "not their power in Magical operations, from themselves, as they are words, "
+        "but from the occult divine powers working by them in the minds of those who "
+        "by faith adhere to them.' The claim is embedded between lengthy lists of "
+        "divine names and diminishing spells — a reader attending to the lists "
+        "will not notice the doctrinal statement that transforms their meaning. "
+        "Agrippa draws on Augustinian sign theory (words as conventional signs "
+        "whose efficacy depends on shared understanding) and Neoplatonic theurgy "
+        "(divine power as the ultimate cause, mediated through the practitioner's "
+        "faith). His move is to apply this anti-magical sign theory to magic itself, "
+        "dissolving the apparent contradiction between a philosophy of language "
+        "that denies inherent word-power and a practice that deploys words for "
+        "operative ends. The resolution: the words work, but not for the reasons "
+        "a naive reader would suppose."
+    ),
+    (3, 13): (
+        "The chapter develops the <em>imago Dei</em> doctrine into an operative "
+        "magical claim: God's members are 'the ideas and exemplars of our members,' "
+        "and through rightful conformity of our members to those exemplars we are "
+        "'translated into the same image' and made 'true sons of God.' Agrippa draws "
+        "on the Kabbalistic tradition of <em>Shi'ur Komah</em> (the mystical account "
+        "of the divine body's proportions) and on the Christian theological tradition "
+        "of the imago Dei, synthesizing them into a claim that has both contemplative "
+        "and operative dimensions. The operative dimension: the ritual invocation of "
+        "divine names and angelic aspects is simultaneously a spiritual discipline "
+        "through which the magician's body and soul are progressively conformed to "
+        "the divine nature. Magic is not commanding God or spirits but conforming "
+        "oneself to the divine image, which then — by the logic of Agrippa's "
+        "entire cosmological system — draws higher powers to cooperate."
+    ),
+    (3, 23): (
+        "The chapter establishes the upper limit of Agrippa's sign theory: angelic "
+        "communication requires no sensory medium because angels impress their "
+        "meaning directly on the minds of their interlocutors. This is not telepathy "
+        "but the logical consequence of the tripartite sign theory — natural signs "
+        "operate through matter, celestial signs through mathematical proportion "
+        "(which can be written), and divine communication transcends both, leaving "
+        "no gap between signifier and signified. Agrippa draws on Pseudo-Dionysian "
+        "angelology and Neoplatonic theories of intellectual communication. His "
+        "polemical move is against Pico's insistence on Hebrew's special privilege "
+        "as the language of magic: if angelic communication bypasses all human "
+        "language, then no particular tongue — not even the sacred Hebrew — has "
+        "intrinsic authority at the highest magical register. Only the practitioner's "
+        "spiritual elevation matters, not the language he speaks. The chapter "
+        "is absent from the 1510 draft, marking a mature universalist development "
+        "of the sign theory."
+    ),
+    (3, 24): (
+        "The chapter handles the problem of magical nomenclature: if true spirit-names "
+        "are known only to God, how can the magician use them? Agrippa's answer "
+        "draws on the Genesis account of Adam naming the animals: Adam's naming "
+        "was not cataloguing but a participation in the divine creative act, made "
+        "possible by his pre-Fall closeness to God. The practitioner 'dignified "
+        "and elevated to this virtue by some divine gift, or sacred authority' "
+        "participates in the same capacity — naming spirits is an ontological act "
+        "available only to one who has recovered something of the Adamic image "
+        "through the triple process of natural perfection, moral merit, and "
+        "godliness (<em>dignitas</em> / <em>dignitas meritoria</em> / <em>ars "
+        "religiosa</em>). Agrippa draws on Neoplatonic theurgy (divine authorization "
+        "of the *theurgos*) and Christian Kabbalah (the power of divinely instituted "
+        "names) while shifting the emphasis from linguistic knowledge to spiritual "
+        "qualification. The chapter is absent from the 1510 draft — it marks "
+        "Agrippa's move away from Pico's Hebrew-centred Kabbalah toward a "
+        "universalist theology of spiritual elevation."
+    ),
+    (3, 25): (
+        "The chapter presents Agrippa's most technically demanding operation: "
+        "the extraction of 72 angelic names from Exodus 14:19–21 through "
+        "the boustrophedon arrangement of three consecutive verses, followed by "
+        "a substitution cipher (<em>ziruph</em>) traceable to Trithemius's "
+        "<em>Polygraphia</em>. The philosophical claim underlying the technique "
+        "is that Scripture encodes angelic names in a form recoverable only by "
+        "one who understands Hebrew letter-mysticism and cryptographic substitution "
+        "simultaneously. Agrippa draws on Kabbalistic tradition (the 72-letter "
+        "name of God from the <em>Zohar</em>) and on his intellectual inheritance "
+        "from Trithemius (the cryptographic tradition of the <em>Polygraphia</em> "
+        "and <em>Steganographia</em>). His move is to demonstrate that cryptography "
+        "and Kabbalah are not separate disciplines but the same practice at "
+        "different ontological levels: both conceal knowledge from the unprepared "
+        "while preserving it for the initiate, and both derive their authority "
+        "from the original act of divine inscription in Scripture."
+    ),
+    (3, 65): (
+        "The chapter performs a double movement that enacts the philosophy of language "
+        "it has been building. First, Agrippa addresses the 'sons of wisdom and learning' "
+        "with an invitation to active interpretation: 'search diligently in this book, "
+        "gathering together our dispersed intentions, which in divers places we have "
+        "propounded, and what is hid in one place, we make manifest in another.' This "
+        "is Agrippa's explicit acknowledgment that DOP is not a manual but an initiatory "
+        "text requiring reconstruction. Then, in the appended <em>De vanitate</em> Censure, "
+        "he formally retracts the three books — but his Latin formulation "
+        "('<em>nunc cautior hac palinodia recantatum volo</em>') deploys a "
+        "self-reflexive grammatical construction: the retraction retracts itself. "
+        "Agrippa draws on the classical tradition of the <em>palinode</em> (the "
+        "formal recantation-poem) and on the Liar paradox: a text that says 'I am "
+        "retracted' is not retracted by its own saying. The result is what the "
+        "entire DOP has been moving toward: a demonstration, in a single gesture, "
+        "that human language can approach but never capture divine truth — and that "
+        "the appropriate response is not silence but the active, faith-oriented, "
+        "self-critical reading that the text has modeled throughout."
+    ),
+}
+
+
 # Per-chapter notes (book, chapter). key (0,0) = whole-work note.
 # Theme-cluster notes used as fallback by scholar_section().
 SCHOLARLY_NOTES: dict[tuple[int, int], str] = {
@@ -1228,14 +1719,15 @@ def _book3_theme(title_lower: str) -> str:
 
 def scholar_section(book: int, chapter: int, title_en: str) -> str:
     """Return a <div class='scholarly-section'> HTML block for this chapter."""
+    reading = CHAPTER_READINGS.get((book, chapter), "")
+    if not reading and book == 0:
+        reading = CHAPTER_READINGS.get((0, -1), "")
+
     note = ""
-    # 1. Chapter-specific note
     if (book, chapter) in SCHOLARLY_NOTES:
         note = SCHOLARLY_NOTES[(book, chapter)]
-    # 2. Epistle fallback
     elif book == 0:
         note = SCHOLARLY_NOTES.get((0, -1), "")
-    # 3. Theme-based fallback
     else:
         t = (title_en or "").lower()
         if book == 1:
@@ -1245,15 +1737,26 @@ def scholar_section(book: int, chapter: int, title_en: str) -> str:
         elif book == 3:
             note = _book3_theme(t)
 
-    if not note:
+    if not reading and not note:
         return ""
 
-    return (
-        "\n<div class='scholarly-section'>"
-        "<h3>Scholarly Perspectives</h3>"
-        f"<p>{note}</p>"
-        "</div>"
-    )
+    parts = ["\n<div class='scholarly-section'>"]
+    if reading:
+        parts.append(
+            "<div class='argument-block'>"
+            "<h3>Agrippa's Argument</h3>"
+            f"<p>{reading}</p>"
+            "</div>"
+        )
+    if note:
+        parts.append(
+            "<div class='debate-block'>"
+            "<h3>Scholarly Perspectives</h3>"
+            f"<p>{note}</p>"
+            "</div>"
+        )
+    parts.append("</div>")
+    return "\n".join(parts)
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -1582,16 +2085,26 @@ main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 /* Scholarly section */
 .scholarly-section {
   margin-top: 2rem;
-  padding: 1.2rem 1.4rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-left: 4px solid var(--accent);
   border-radius: 0 var(--radius) var(--radius) 0;
+  overflow: hidden;
+}
+.argument-block {
+  padding: 1.2rem 1.4rem 1rem;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid #8aad7a;
+  margin-left: -4px;
+}
+.debate-block {
+  padding: 1.2rem 1.4rem 1rem;
 }
 .scholarly-section h3 {
-  font-size: .8rem; font-weight: 600; color: var(--accent);
-  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .7rem;
+  font-size: .75rem; font-weight: 700; color: var(--accent);
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .65rem;
 }
+.argument-block h3 { color: #5a7a4a; }
 .scholarly-section p {
   font-family: var(--font-serif); font-size: .95rem; line-height: 1.7;
   color: var(--text);

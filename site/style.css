@@ -152,16 +152,26 @@ main { max-width: 1200px; margin: 0 auto; padding: 2rem; }
 /* Scholarly section */
 .scholarly-section {
   margin-top: 2rem;
-  padding: 1.2rem 1.4rem;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-left: 4px solid var(--accent);
   border-radius: 0 var(--radius) var(--radius) 0;
+  overflow: hidden;
+}
+.argument-block {
+  padding: 1.2rem 1.4rem 1rem;
+  border-bottom: 1px solid var(--border);
+  border-left: 3px solid #8aad7a;
+  margin-left: -4px;
+}
+.debate-block {
+  padding: 1.2rem 1.4rem 1rem;
 }
 .scholarly-section h3 {
-  font-size: .8rem; font-weight: 600; color: var(--accent);
-  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .7rem;
+  font-size: .75rem; font-weight: 700; color: var(--accent);
+  text-transform: uppercase; letter-spacing: .1em; margin-bottom: .65rem;
 }
+.argument-block h3 { color: #5a7a4a; }
 .scholarly-section p {
   font-family: var(--font-serif); font-size: .95rem; line-height: 1.7;
   color: var(--text);
